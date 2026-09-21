@@ -1,0 +1,45 @@
+{
+  "passed": 10,
+  "checks": [
+    {
+      "name": "Existing four-traveler price remains EUR348",
+      "status": "passed"
+    },
+    {
+      "name": "Photo upload rejects incomplete bookings, other owners and unsupported files",
+      "status": "passed"
+    },
+    {
+      "name": "Uploaded photo persists but remains private before moderation",
+      "status": "passed"
+    },
+    {
+      "name": "Publication consent and booking-owned photos are enforced; pending reviews stay hidden",
+      "status": "passed"
+    },
+    {
+      "name": "Approved review and photo render together with genuine rating and verification",
+      "status": "passed"
+    },
+    {
+      "name": "Removing publication revokes public photo access",
+      "status": "passed"
+    },
+    {
+      "name": "Company settings require admin and survive a fresh read",
+      "status": "passed"
+    },
+    {
+      "name": "Email preview uses escaped company details and new responsive branding",
+      "status": "passed"
+    },
+    {
+      "name": "Template copy, section toggles and restore-default persist",
+      "status": "passed"
+    },
+    {
+      "name": "Golden page renders compact actions, custom CTA, guest reviews and accordion sections without group pricing table",
+      "status": "passed"
+    }
+  ]
+}

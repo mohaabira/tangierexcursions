@@ -1,0 +1,290 @@
+{
+  "tours": 40,
+  "checks": [
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-gibraltar/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-malaga/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-marbella/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-seville/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-spain/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-gibraltar/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-malaga/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-marbella/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-seville/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-tarifa/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/5-day-morocco-tour-from-spain/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/travel-from-spain-to-morocco/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/best-tangier-tours/trip-tangier-to-fes-chefchaouen-4-days-3-nights/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/desert-trips/morocco-desert-trip-from-spain/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/morocco-vacation-packages/best-private-morocco-tour-10-days-9-nights/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/morocco-vacation-packages/marrakech-desert-tour/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/morocco-vacation-packages/marrakech-desert-trip-7-days-6-nights/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/morocco-vacation-packages/morocco-trip-15-days-14-nights/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/benalmadena-to-morocco-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/cadiz-to-morocco-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-from-marbella-to-morocco/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-morocco-from-spain/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-tangier-and-asilah/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-tangier-and-tetouan-from-gibraltar/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/estepona-to-tangier-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/fuengirola-to-morocco-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/full-day-trip-to-tangier-from-tarifa-spain/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/malaga-day-trip-to-morocco/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/rota-to-morocco-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/sotogrande-to-morocco-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/tangier-day-trip-from-seville/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/tangier-food-tour/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/tangier-guided-walking-tour/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/tangier-shore-excursion/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/tangier-to-chefchaouen-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/tarifa-to-chefchaouen-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-day-trips/torremolinos-to-morocco-day-trip/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-taxi/tangier-to-chefchaouen-taxi/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/tangier-taxi/tangier-to-fes-via-chefchaouen/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    },
+    {
+      "path": "/taxi-transfers/tangier-airport-taxi/",
+      "map": true,
+      "deferred": true,
+      "adminPersistence": true,
+      "canonical": true
+    }
+  ],
+  "homepageOrder": true,
+  "distinctCategoryIcons": true,
+  "mapEditUpdatesFrontend": true,
+  "browserVisualQA": "Not verified in this run",
+  "coreWebVitals": "Not measured"
+}

@@ -1,0 +1,45 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {safeReturn,validEmail,verifiedCustomer} from '../lib/customer-auth-core.ts';
+const require=createRequire(import.meta.url),wr=createRequire(require.resolve('wrangler/package.json'));
+const {Miniflare,createFetchMock}=wr('miniflare');
+for(const value of ['https://evil.test','//evil.test','/\\evil.test','/api/x','/admin/','/auth/customer/callback/','/login/?next=evil'])assert.equal(safeReturn(value),'/account/');
+assert.equal(safeReturn('/wishlist/?saved=1'),'/wishlist/?saved=1');
+assert.throws(()=>validEmail('invalid'));assert.throws(()=>verifiedCustomer({id:'x',email:'a@example.test'}));
+assert.equal(verifiedCustomer({id:'x',email:'a@example.test',email_confirmed_at:'now',role:'admin',user_metadata:{role:'admin'}}).role,'customer');
+const fetchMock=createFetchMock();fetchMock.disableNetConnect();
+const remote=fetchMock.get('https://testproject.supabase.co');
+remote.intercept({path:'/auth/v1/settings',method:'GET'}).reply(200,{external:{google:true,facebook:true,email:true}}).persist();
+remote.intercept({path:'/auth/v1/otp',method:'POST'}).reply(200,{}).persist();
+remote.intercept({path:'/auth/v1/verify',method:'POST'}).reply(400,{error:'invalid code'});
+remote.intercept({path:'/auth/v1/verify',method:'POST'}).reply(200,{access_token:'verified-token'}).persist();
+remote.intercept({path:'/auth/v1/user',method:'GET'}).reply(200,{id:'guest-id',email:'guest@example.test',email_confirmed_at:'2026-01-01',user_metadata:{name:'Guest',role:'admin'}}).persist();
+remote.intercept({path:'/auth/v1/token?grant_type=pkce',method:'POST'}).reply(200,{access_token:'verified-token'}).persist();
+const root=process.cwd();const mf=new Miniflare({modules:[{type:'ESModule',path:path.join(root,'dist/server/index.js')},...fs.readdirSync('dist/server',{recursive:true}).filter(x=>x.endsWith('.js')&&x!=='index.js').map(x=>({type:'ESModule',path:path.join(root,'dist/server',x)}))],modulesRoot:path.join(root,'dist/server'),modulesRules:[{type:'ESModule',include:['**/*.js'],fallthrough:true}],compatibilityDate:'2026-05-15',compatibilityFlags:['nodejs_compat'],d1Databases:{DB:'customer-test'},bindings:{CUSTOMER_AUTH_ENABLED:'true'},fetchMock,assets:{directory:path.join(root,'dist/client'),binding:'ASSETS',routerConfig:{has_user_worker:true,invoke_user_worker_ahead_of_assets:true}},cf:false});
+try{
+ const db=await mf.getD1Database('DB');for(const f of fs.readdirSync('drizzle').filter(x=>x.endsWith('.sql')).sort())for(const stmt of fs.readFileSync('drizzle/'+f,'utf8').split('--> statement-breakpoint').map(x=>x.trim()).filter(Boolean))await db.prepare(stmt).run();
+ const settings={liveOrigin:'https://test.local',service:{url:'https://testproject.supabase.co',publishableKey:'sb_publishable_test'},google:{planned:true},facebook:{planned:true},email:{planned:true}};
+ await db.prepare('INSERT INTO settings(key,value) VALUES (?,?)').bind('customer-login-setup',JSON.stringify(settings)).run();
+ const req=async(action,body,cookie='',origin='https://test.local')=>mf.dispatchFetch('https://test.local/api/customer-auth/'+action,{method:body?'POST':'GET',headers:{Origin:origin,'Content-Type':'application/json',Cookie:cookie,'cf-connecting-ip':'192.0.2.1'},...(body?{body:JSON.stringify(body)}:{})});
+ assert.equal((await req('send',{email:'guest@example.test'},'','https://evil.test')).status,403);
+ const sent=await req('send',{email:'guest@example.test'});assert.equal(sent.status,200,await sent.text());
+ assert.equal((await req('send',{email:'guest@example.test'})).status,400);
+ assert.equal((await req('verify',{email:'guest@example.test',code:'000000'})).status,400);
+ const verified=await req('verify',{email:'guest@example.test',code:'123456',next:'//evil.test'});assert.equal(verified.status,200,await verified.clone().text());assert.equal((await verified.json()).next,'/account/');
+ const setCookie=verified.headers.get('set-cookie');assert.match(setCookie,/HttpOnly/i);assert.match(setCookie,/Secure/i);assert.match(setCookie,/SameSite=Lax/i);const cookie=setCookie.split(';')[0];
+ const session=await mf.dispatchFetch('https://test.local/api/session',{headers:{Cookie:cookie}});const user=(await session.json()).user;assert.equal(user.id,'customer:guest-id');assert.equal(user.role,'customer');
+ const denied=await mf.dispatchFetch('https://test.local/api/login-settings',{headers:{Cookie:cookie}});assert.equal(denied.status,403);
+ const rows=(await db.prepare('SELECT * FROM customer_auth_sessions').all()).results;assert.equal(rows.length,1);assert.notEqual(rows[0].token_hash,cookie.split('=')[1]);
+ const start=await req('oauth',{provider:'google',next:'/partners/portal/'});const startData=await start.json();const providerUrl=new URL(startData.url);assert.equal(providerUrl.searchParams.get('code_challenge_method'),'s256');assert.equal(providerUrl.searchParams.get('provider'),'google');
+ const flowCookie=start.headers.get('set-cookie').split(';')[0];const callback=new URL(providerUrl.searchParams.get('redirect_to'));callback.searchParams.set('code','test-code');callback.pathname=callback.pathname.replace(/\/$/,'');
+ const normalized=await mf.dispatchFetch(callback.href,{headers:{Cookie:flowCookie},redirect:'manual'});assert.equal(normalized.status,308);const finalCallback=new URL(normalized.headers.get('location'),callback.href);assert.equal(finalCallback.search,callback.search);callback.pathname=finalCallback.pathname;const returned=await mf.dispatchFetch(callback.href,{headers:{Cookie:flowCookie},redirect:'manual'});assert.equal(returned.status,307);assert.equal(returned.headers.get('location'),'https://test.local/partners/portal/');
+ const missing=await mf.dispatchFetch(callback.href,{redirect:'manual'});assert.match(missing.headers.get('location'),/error=signin/);
+ await db.prepare('UPDATE customer_auth_sessions SET expires=0').run();const expired=await mf.dispatchFetch('https://test.local/api/session',{headers:{Cookie:cookie}});assert.equal((await expired.json()).user,null);await db.prepare('UPDATE customer_auth_sessions SET expires=?').bind(Date.now()+60000).run();
+ await req('logout',{all:true},cookie);const after=await mf.dispatchFetch('https://test.local/api/session',{headers:{Cookie:cookie}});assert.equal((await after.json()).user,null);
+ assert.equal((await db.prepare('SELECT count(*) AS n FROM customer_auth_sessions').first()).n,0);
+ const page=await mf.dispatchFetch('https://test.local/login');assert.equal(page.status,200);assert.match(await page.text(),/Continue with Google/);
+ for(const route of ['/partners/portal','/booking-workspace','/booking-link/test-token']){const response=await mf.dispatchFetch('https://test.local'+route);assert.equal(response.status,200,route);const html=await response.text();for(const label of ['Continue with Google','Continue with Facebook','Continue with email'])assert.ok(html.includes(label),route+': '+label)}
+ console.log('PASS CSRF, throttling, email verification, secure cookies, customer-only permissions, PKCE, safe redirects and all-device logout (mock provider)');
+}finally{await mf.dispose()}

@@ -1,0 +1,25 @@
+/* Shared date-first booking card; traveler selection lives in the dialog. */
+.compact-booking .booking-price{margin-bottom:18px}
+.booking-date-choice{display:flex;align-items:center;gap:12px;width:100%;padding:15px 13px;border:1px solid #dce5ed;border-radius:12px;background:#f6f9fc;text-align:left;transition:background .2s,border-color .2s,transform .2s;cursor:pointer}
+.booking-date-choice:hover{background:#eef5fc;border-color:#8aafcf;transform:translateY(-1px)}
+.booking-date-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:11px;background:white;color:var(--blue,#1765a5);flex-shrink:0}
+.booking-date-choice>span:nth-child(2){flex:1;min-width:0}
+.booking-date-choice small{display:block;font-size:9px;font-weight:500;letter-spacing:.7px;color:#63748b;margin-bottom:5px}
+.booking-date-choice strong{font-size:15px;font-weight:600;color:#19354b}
+.booking-flow-hint{font-size:12px;line-height:1.5;color:#63748b;margin:10px 0 0}
+.compact-booking .primary{min-height:48px;gap:10px}
+.booking-date-choice:focus-visible,.mobile-book-help button:focus-visible{outline:3px solid #e4b535;outline-offset:3px}
+.mobile-book-help{display:none}
+@media(max-width:767px){
+ .mobile-book.mobile-book-refined{display:flex;flex-direction:column;align-items:stretch;gap:8px;padding:10px 16px max(10px,env(safe-area-inset-bottom));border-radius:18px 18px 0 0;box-shadow:0 -6px 28px #18344a12}
+ .mobile-book-main{display:flex;align-items:center;justify-content:space-between;gap:10px}
+ .mobile-book-main>span{font-size:11px;white-space:nowrap}
+ .mobile-book-main strong{display:block;font-size:21px}
+ .mobile-book-main .primary{font-size:15px;min-height:46px;padding:11px 14px;gap:8px}
+ .mobile-book-help{display:flex;justify-content:center;gap:20px;border-top:1px solid #edf0f3;padding-top:2px}
+ .mobile-book-help button{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:36px;background:none;border:0;color:#284d69;font-size:12px;font-weight:500;padding:2px 0}
+ .golden-tour{padding-bottom:125px}
+}
+@media(prefers-reduced-motion:reduce){.booking-date-choice{transition:none}.booking-date-choice:hover{transform:none}}
+
+.pickup-time-field{display:grid;gap:8px;padding:16px;background:#f2f6fd;border:1px solid #dae5f4;border-radius:14px;margin:12px 0}.pickup-time-field>label{display:flex;align-items:center;gap:8px;color:#182a42;font-size:16px;font-weight:500}.pickup-time-field>small{font-size:13px;color:#576b83}.pickup-time-trigger{width:100%;min-height:48px!important;background:#fff;border:1px solid #b8cbe9;border-radius:10px;font-size:16px}.pickup-time-options{z-index:150!important;max-height:240px!important;background:#fff;color:#182a42;border:1px solid #d5dfed;border-radius:12px;box-shadow:0 12px 36px #182a4226}.pickup-time-options [role=option]{min-height:44px;font-size:16px;border-radius:8px}.pickup-time-options [role=option][data-highlighted]{background:#eaf1ff;color:#254f9c}.traveler-row .traveler-unit-price{font-size:14px;color:#2859ad;font-weight:500;margin-top:5px;max-width:250px;line-height:1.5}.pickup-times-editor{padding:20px;border:1px solid #dce5ef;border-radius:14px;margin-bottom:20px}.pickup-times-editor h3{display:flex;align-items:center;gap:8px}.pickup-time-add{display:flex;align-items:end;gap:10px;margin:14px 0}.pickup-time-add .field{margin:0}.pickup-time-chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.pickup-time-chips button{gap:8px;min-height:42px}@media(max-width:767px){.pickup-time-field{padding:12px}.traveler-row .traveler-unit-price{max-width:190px}.pickup-time-add{flex-wrap:wrap}}

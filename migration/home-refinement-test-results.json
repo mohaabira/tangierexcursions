@@ -1,0 +1,29 @@
+{
+  "passed": 6,
+  "checks": [
+    {
+      "name": "Only an administrator can assign product badges",
+      "status": "passed"
+    },
+    {
+      "name": "Tour badges persist after fresh authenticated reads and reach discovery without changing SEO",
+      "status": "passed"
+    },
+    {
+      "name": "Cards display assigned badge styles and omit the automatic private-experience image label",
+      "status": "passed"
+    },
+    {
+      "name": "Homepage renders accessible trust carousel and image-free category cards with refreshed content sections",
+      "status": "passed"
+    },
+    {
+      "name": "Removing badges persists and removes them from frontend discovery data",
+      "status": "passed"
+    },
+    {
+      "name": "Transfer products support persistent preset/custom badges and remain unpublished drafts until reviewed",
+      "status": "passed"
+    }
+  ]
+}

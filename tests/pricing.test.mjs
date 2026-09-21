@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {calculate,validTiers} from '../lib/shared.ts';
+const catalog=JSON.parse(fs.readFileSync(new URL('../data/catalog.json',import.meta.url)));
+const tarifa=catalog.find(p=>p.path.includes('/full-day-trip-to-tangier-from-tarifa-spain/'));
+test('Tarifa published tier boundaries and integer-cent totals',()=>{const expected=[[1,16800],[2,19000],[3,26100],[4,34800],[5,39000],[6,46800],[7,49000],[9,63000],[10,63000],[12,75600],[13,74100],[99,564300]];for(const [n,total] of expected)assert.equal(calculate(tarifa.pricing,n).total,total)});
+test('invalid guest counts cannot produce a quote',()=>{for(const n of [0,-1,100,1.5,NaN,Infinity])assert.throws(()=>calculate(tarifa.pricing,n))});
+test('overlapping or non-positive tiers rejected',()=>{assert.throws(()=>validTiers([{min:1,max:3,price:5},{min:3,max:4,price:4}]));assert.throws(()=>validTiers([{min:1,max:3,price:0}]))});
+test('unconfigured group size stays quote-only',()=>assert.throws(()=>calculate([],2)));
+test('all 72 source routes are unique and imported',()=>{assert.equal(catalog.length,72);assert.equal(new Set(catalog.map(p=>p.path)).size,72);for(const p of catalog){assert.equal(p.import_status,'complete');assert.ok(p.content.length>0);assert.ok(p.canonical.length)}});
+test('all imported pricing tables pass tier validation',()=>{for(const p of catalog)if(p.pricing.length)validTiers(p.pricing)});
+test('all audited SEO metadata, schemas and image references remain unchanged in source records',()=>{const audit=JSON.parse(fs.readFileSync(new URL('../migration/original-audit.json',import.meta.url)));for(const old of audit){const p=catalog.find(p=>p.url===old.url);assert.ok(p,old.url);for(const key of ['title','canonical','meta','structured_data','images','internal_links'])assert.deepEqual(p[key],old[key],old.url+' '+key)}});

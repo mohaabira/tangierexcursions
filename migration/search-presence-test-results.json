@@ -1,0 +1,29 @@
+{
+  "passed": 6,
+  "checks": [
+    {
+      "name": "Search presence dashboard is admin-only",
+      "status": "passed"
+    },
+    {
+      "name": "Admin exposes preserved metadata, canonical and schema",
+      "status": "passed"
+    },
+    {
+      "name": "Draft answers persist but stay out of visible page content",
+      "status": "passed"
+    },
+    {
+      "name": "Reviewed answers render on the existing page while original SEO remains unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "Unsafe sources and unreviewed publication rejected; clearing content persists",
+      "status": "passed"
+    },
+    {
+      "name": "Tour output removes further-reading block and preserves honest review ratings",
+      "status": "passed"
+    }
+  ]
+}

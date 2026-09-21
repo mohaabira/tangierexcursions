@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Application approval requires admin and creates organization",
+      "status": "passed"
+    },
+    {
+      "name": "Catalog assignments persist and are isolated by organization",
+      "status": "passed"
+    },
+    {
+      "name": "Invitation binds email, role and one-time acceptance",
+      "status": "passed"
+    },
+    {
+      "name": "Read-only member cannot book or grant privileges",
+      "status": "passed"
+    },
+    {
+      "name": "Partner booking uses shared price and restricts mutations",
+      "status": "passed"
+    },
+    {
+      "name": "Unapproved payment arrangement rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Fixed and net commercial rules price server-side",
+      "status": "passed"
+    },
+    {
+      "name": "Statement uses booked commission snapshot after completion and payment",
+      "status": "passed"
+    },
+    {
+      "name": "Payout admin-only, idempotent and bounded by earned commission",
+      "status": "passed"
+    },
+    {
+      "name": "Partner messages persist without cross-organization access",
+      "status": "passed"
+    },
+    {
+      "name": "Gift delivery processes only due jobs and is repeat-safe",
+      "status": "passed"
+    },
+    {
+      "name": "Gift email hides financial rows",
+      "status": "passed"
+    },
+    {
+      "name": "Gift schedules persist with truthful simulated status",
+      "status": "passed"
+    },
+    {
+      "name": "Cannot remove last organization admin",
+      "status": "passed"
+    },
+    {
+      "name": "Concurrent invoice bookings cannot exceed organization credit limit",
+      "status": "passed"
+    },
+    {
+      "name": "Invoice and credit views enforce finance permissions",
+      "status": "passed"
+    },
+    {
+      "name": "Canonical payment ledger reduces invoice outstanding and releases credit",
+      "status": "passed"
+    },
+    {
+      "name": "Suspension revokes catalog and booking access",
+      "status": "passed"
+    },
+    {
+      "name": "Partner and gift routes render server-side with noindex",
+      "status": "passed"
+    },
+    {
+      "name": "Navigation controls persist and require administrator",
+      "status": "passed"
+    }
+  ],
+  "scope": "Disposable local database. Payments and delivery simulated."
+}

@@ -1,0 +1,85 @@
+{
+  "passed": 20,
+  "checks": [
+    {
+      "name": "Migration review requires an authenticated administrator",
+      "status": "passed"
+    },
+    {
+      "name": "Approved Tarifa reference retains seven stops, four source reviews and complete mapped-block coverage",
+      "status": "passed"
+    },
+    {
+      "name": "Optional ferry and missing cancellation policy are not invented as inclusions",
+      "status": "passed"
+    },
+    {
+      "name": "Golden frontend renders structured content once with source reviews and no legacy template",
+      "status": "passed"
+    },
+    {
+      "name": "All 40 audited tours use the approved shared template",
+      "status": "passed"
+    },
+    {
+      "name": "Customer mutation and unknown tour URLs are blocked",
+      "status": "passed"
+    },
+    {
+      "name": "Structured content, itinerary creation, mode and section order persist and render after fresh reads",
+      "status": "passed"
+    },
+    {
+      "name": "Itinerary reordering and deletion persist without deleting source",
+      "status": "passed"
+    },
+    {
+      "name": "Map coordinates and unsafe links are validated server-side",
+      "status": "passed"
+    },
+    {
+      "name": "Approval is blocked while the cancellation policy is missing",
+      "status": "passed"
+    },
+    {
+      "name": "Comparison flags information removed from the mapped field",
+      "status": "passed"
+    },
+    {
+      "name": "Reusable information, inherited policy and provider settings persist into frontend",
+      "status": "passed"
+    },
+    {
+      "name": "In-use reusable information cannot be deleted",
+      "status": "passed"
+    },
+    {
+      "name": "Unused reusable information deletion persists",
+      "status": "passed"
+    },
+    {
+      "name": "Individual content approval works only after required reviews",
+      "status": "passed"
+    },
+    {
+      "name": "Structured translations persist and editing resets approval status",
+      "status": "passed"
+    },
+    {
+      "name": "Golden Tour booking quote preserves audited EUR 348 tier for four travelers",
+      "status": "passed"
+    },
+    {
+      "name": "Golden booking flows through authoritative quote to saved customer booking",
+      "status": "passed"
+    },
+    {
+      "name": "Tour enquiry persists into Admin and branded test outbox",
+      "status": "passed"
+    },
+    {
+      "name": "All 72 original routes, titles and canonical URLs remain unchanged",
+      "status": "passed"
+    }
+  ]
+}

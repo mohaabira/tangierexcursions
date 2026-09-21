@@ -1,0 +1,6 @@
+export const aboutPath='/about-us/';
+export const aboutTypes=['hero','story','crossing','local','private','people','values','journeys','trust','reviews','responsible','final'];
+export const aboutEscape=(s:any)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
+export function aboutLink(v:any){const s=String(v||'').trim();return s==='custom'||/^#[-\w]+$/.test(s)||/^\/(?!\/)[^\s<>"\\]*$/.test(s)||/^https:\/\/[^\s<>"\\]+$/.test(s)?s:''}
+export function aboutHTML(value:any){const s=String(value||'').slice(0,24000).replace(/<(script|style|iframe)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,'').replace(/<!--[\s\S]*?-->/g,'');return s.split(/(<[^>]*>)/g).map(t=>{if(!t.startsWith('<'))return t.replace(/</g,'&lt;').replace(/>/g,'&gt;');const m=t.match(/^<(\/?)(p|div|br|strong|b|em|i|a|ul|ol|li|h2|h3|blockquote)\b[^>]*>$/i);if(!m)return '';const tag=m[2].toLowerCase()==='div'?'p':m[2].toLowerCase();if(m[1])return tag==='br'?'':'</'+tag+'>';if(tag==='a'){const h=t.match(/href\s*=\s*(?:"([^"]*)"|'([^']*)')/i),url=aboutLink(h?.[1]||h?.[2]);return url&&url!=='custom'?'<a href="'+aboutEscape(url)+'">':'<a>'}return '<'+tag+'>'}).join('')}
+export function aboutPlain(doc:any){return doc.sections.filter((s:any)=>s.enabled).map((s:any)=>s.heading+' '+s.body.replace(/<[^>]*>/g,' ')).join('\n')}

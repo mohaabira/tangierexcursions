@@ -1,0 +1,314 @@
+[
+  {
+    "path": "/best-tangier-tours/2-day-trip-to-morocco-from-gibraltar/",
+    "paragraphs": 81,
+    "itineraryMode": "day",
+    "stops": 2,
+    "nestedEvents": 1,
+    "faqs": 10
+  },
+  {
+    "path": "/best-tangier-tours/2-day-trip-to-morocco-from-malaga/",
+    "paragraphs": 76,
+    "itineraryMode": "day",
+    "stops": 2,
+    "nestedEvents": 1,
+    "faqs": 10
+  },
+  {
+    "path": "/best-tangier-tours/2-day-trip-to-morocco-from-marbella/",
+    "paragraphs": 74,
+    "itineraryMode": "day",
+    "stops": 2,
+    "nestedEvents": 1,
+    "faqs": 9
+  },
+  {
+    "path": "/best-tangier-tours/2-day-trip-to-morocco-from-seville/",
+    "paragraphs": 83,
+    "itineraryMode": "day",
+    "stops": 2,
+    "nestedEvents": 1,
+    "faqs": 10
+  },
+  {
+    "path": "/best-tangier-tours/2-day-trip-to-morocco-from-spain/",
+    "paragraphs": 77,
+    "itineraryMode": "day",
+    "stops": 2,
+    "nestedEvents": 0,
+    "faqs": 10
+  },
+  {
+    "path": "/best-tangier-tours/3-day-morocco-tour-from-gibraltar/",
+    "paragraphs": 90,
+    "itineraryMode": "day",
+    "stops": 3,
+    "nestedEvents": 1,
+    "faqs": 9
+  },
+  {
+    "path": "/best-tangier-tours/3-day-morocco-tour-from-malaga/",
+    "paragraphs": 90,
+    "itineraryMode": "day",
+    "stops": 3,
+    "nestedEvents": 1,
+    "faqs": 12
+  },
+  {
+    "path": "/best-tangier-tours/3-day-morocco-tour-from-marbella/",
+    "paragraphs": 89,
+    "itineraryMode": "day",
+    "stops": 3,
+    "nestedEvents": 1,
+    "faqs": 10
+  },
+  {
+    "path": "/best-tangier-tours/3-day-morocco-tour-from-seville/",
+    "paragraphs": 89,
+    "itineraryMode": "day",
+    "stops": 3,
+    "nestedEvents": 1,
+    "faqs": 11
+  },
+  {
+    "path": "/best-tangier-tours/3-day-morocco-tour-from-tarifa/",
+    "paragraphs": 85,
+    "itineraryMode": "day",
+    "stops": 3,
+    "nestedEvents": 1,
+    "faqs": 9
+  },
+  {
+    "path": "/best-tangier-tours/5-day-morocco-tour-from-spain/",
+    "paragraphs": 62,
+    "itineraryMode": "day",
+    "stops": 6,
+    "nestedEvents": 0,
+    "faqs": 0
+  },
+  {
+    "path": "/best-tangier-tours/travel-from-spain-to-morocco/",
+    "paragraphs": 44,
+    "itineraryMode": "day",
+    "stops": 3,
+    "nestedEvents": 0,
+    "faqs": 0
+  },
+  {
+    "path": "/best-tangier-tours/trip-tangier-to-fes-chefchaouen-4-days-3-nights/",
+    "paragraphs": 83,
+    "itineraryMode": "day",
+    "stops": 4,
+    "nestedEvents": 0,
+    "faqs": 8
+  },
+  {
+    "path": "/desert-trips/morocco-desert-trip-from-spain/",
+    "paragraphs": 15,
+    "itineraryMode": "stop",
+    "stops": 0,
+    "nestedEvents": 0,
+    "faqs": 0
+  },
+  {
+    "path": "/morocco-vacation-packages/best-private-morocco-tour-10-days-9-nights/",
+    "paragraphs": 71,
+    "itineraryMode": "day",
+    "stops": 10,
+    "nestedEvents": 0,
+    "faqs": 0
+  },
+  {
+    "path": "/morocco-vacation-packages/marrakech-desert-tour/",
+    "paragraphs": 69,
+    "itineraryMode": "day",
+    "stops": 8,
+    "nestedEvents": 0,
+    "faqs": 0
+  },
+  {
+    "path": "/morocco-vacation-packages/marrakech-desert-trip-7-days-6-nights/",
+    "paragraphs": 65,
+    "itineraryMode": "day",
+    "stops": 7,
+    "nestedEvents": 0,
+    "faqs": 0
+  },
+  {
+    "path": "/morocco-vacation-packages/morocco-trip-15-days-14-nights/",
+    "paragraphs": 120,
+    "itineraryMode": "day",
+    "stops": 16,
+    "nestedEvents": 0,
+    "faqs": 5
+  },
+  {
+    "path": "/tangier-day-trips/benalmadena-to-morocco-day-trip/",
+    "paragraphs": 61,
+    "itineraryMode": "time",
+    "stops": 5,
+    "nestedEvents": 0,
+    "faqs": 7
+  },
+  {
+    "path": "/tangier-day-trips/cadiz-to-morocco-day-trip/",
+    "paragraphs": 85,
+    "itineraryMode": "time",
+    "stops": 5,
+    "nestedEvents": 0,
+    "faqs": 8
+  },
+  {
+    "path": "/tangier-day-trips/day-trip-from-marbella-to-morocco/",
+    "paragraphs": 89,
+    "itineraryMode": "stop",
+    "stops": 3,
+    "nestedEvents": 0,
+    "faqs": 10
+  },
+  {
+    "path": "/tangier-day-trips/day-trip-to-morocco-from-spain/",
+    "paragraphs": 62,
+    "itineraryMode": "stop",
+    "stops": 3,
+    "nestedEvents": 0,
+    "faqs": 8
+  },
+  {
+    "path": "/tangier-day-trips/day-trip-to-tangier-and-asilah/",
+    "paragraphs": 58,
+    "itineraryMode": "stop",
+    "stops": 4,
+    "nestedEvents": 0,
+    "faqs": 5
+  },
+  {
+    "path": "/tangier-day-trips/day-trip-to-tangier-and-tetouan-from-gibraltar/",
+    "paragraphs": 60,
+    "itineraryMode": "stop",
+    "stops": 3,
+    "nestedEvents": 0,
+    "faqs": 7
+  },
+  {
+    "path": "/tangier-day-trips/estepona-to-tangier-day-trip/",
+    "paragraphs": 57,
+    "itineraryMode": "stop",
+    "stops": 4,
+    "nestedEvents": 0,
+    "faqs": 4
+  },
+  {
+    "path": "/tangier-day-trips/fuengirola-to-morocco-day-trip/",
+    "paragraphs": 80,
+    "itineraryMode": "time",
+    "stops": 5,
+    "nestedEvents": 0,
+    "faqs": 12
+  },
+  {
+    "path": "/tangier-day-trips/malaga-day-trip-to-morocco/",
+    "paragraphs": 56,
+    "itineraryMode": "stop",
+    "stops": 3,
+    "nestedEvents": 0,
+    "faqs": 4
+  },
+  {
+    "path": "/tangier-day-trips/rota-to-morocco-day-trip/",
+    "paragraphs": 85,
+    "itineraryMode": "time",
+    "stops": 6,
+    "nestedEvents": 0,
+    "faqs": 9
+  },
+  {
+    "path": "/tangier-day-trips/sotogrande-to-morocco-day-trip/",
+    "paragraphs": 75,
+    "itineraryMode": "time",
+    "stops": 5,
+    "nestedEvents": 0,
+    "faqs": 8
+  },
+  {
+    "path": "/tangier-day-trips/tangier-day-trip-from-seville/",
+    "paragraphs": 59,
+    "itineraryMode": "stop",
+    "stops": 0,
+    "nestedEvents": 0,
+    "faqs": 5
+  },
+  {
+    "path": "/tangier-day-trips/tangier-food-tour/",
+    "paragraphs": 44,
+    "itineraryMode": "stop",
+    "stops": 2,
+    "nestedEvents": 0,
+    "faqs": 4
+  },
+  {
+    "path": "/tangier-day-trips/tangier-guided-walking-tour/",
+    "paragraphs": 45,
+    "itineraryMode": "stop",
+    "stops": 1,
+    "nestedEvents": 0,
+    "faqs": 3
+  },
+  {
+    "path": "/tangier-day-trips/tangier-shore-excursion/",
+    "paragraphs": 65,
+    "itineraryMode": "stop",
+    "stops": 7,
+    "nestedEvents": 0,
+    "faqs": 8
+  },
+  {
+    "path": "/tangier-day-trips/tangier-to-chefchaouen-day-trip/",
+    "paragraphs": 48,
+    "itineraryMode": "stop",
+    "stops": 1,
+    "nestedEvents": 0,
+    "faqs": 4
+  },
+  {
+    "path": "/tangier-day-trips/tarifa-to-chefchaouen-day-trip/",
+    "paragraphs": 78,
+    "itineraryMode": "time",
+    "stops": 1,
+    "nestedEvents": 0,
+    "faqs": 10
+  },
+  {
+    "path": "/tangier-day-trips/torremolinos-to-morocco-day-trip/",
+    "paragraphs": 81,
+    "itineraryMode": "time",
+    "stops": 5,
+    "nestedEvents": 0,
+    "faqs": 7
+  },
+  {
+    "path": "/tangier-taxi/tangier-to-chefchaouen-taxi/",
+    "paragraphs": 26,
+    "itineraryMode": "stop",
+    "stops": 0,
+    "nestedEvents": 0,
+    "faqs": 0
+  },
+  {
+    "path": "/tangier-taxi/tangier-to-fes-via-chefchaouen/",
+    "paragraphs": 7,
+    "itineraryMode": "stop",
+    "stops": 0,
+    "nestedEvents": 0,
+    "faqs": 0
+  },
+  {
+    "path": "/taxi-transfers/tangier-airport-taxi/",
+    "paragraphs": 31,
+    "itineraryMode": "stop",
+    "stops": 0,
+    "nestedEvents": 0,
+    "faqs": 0
+  }
+]

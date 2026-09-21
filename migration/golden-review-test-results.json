@@ -1,0 +1,13 @@
+{
+  "passed": 2,
+  "checks": [
+    {
+      "name": "Golden Tour reviews require a completed booking",
+      "status": "passed"
+    },
+    {
+      "name": "Moderated booking reviews expose recorded rating, verification and date to the carousel",
+      "status": "passed"
+    }
+  ]
+}

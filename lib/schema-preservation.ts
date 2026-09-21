@@ -1,0 +1,2 @@
+// Keep valid source schema verbatim; escape literal controls in JSON strings.
+export function preservedSchema(source:string){try{JSON.parse(source);return source}catch{}let inside=false,escaped=false,out='';for(const c of source){if(inside&&c.charCodeAt(0)<32){out+='\\u'+c.charCodeAt(0).toString(16).padStart(4,'0');escaped=false;continue}out+=c;if(escaped){escaped=false;continue}if(c==='\\'&&inside){escaped=true;continue}if(c==='"')inside=!inside}try{JSON.parse(out);return out}catch{return source}}

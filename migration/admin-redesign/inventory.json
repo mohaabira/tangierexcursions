@@ -1,0 +1,314 @@
+[
+  {
+    "screen": "Dashboard",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Dashboard",
+    "dependencies": "bookings, records/admin-log",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Operational summary; previously duplicated by Analytics"
+  },
+  {
+    "screen": "Bookings",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Bookings \u2192 All bookings",
+    "dependencies": "bookings; booking-service; ledger, participant and event records",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Canonical engine retained; pagination, deep links and destructive confirmations added"
+  },
+  {
+    "screen": "Partners",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Partners",
+    "dependencies": "partner-service, partner-finance, invoices",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing company/users/catalog/commercial/statements/invoices/messages retained; creation moved here"
+  },
+  {
+    "screen": "Gifts",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Bookings \u2192 Gifts",
+    "dependencies": "gift-workspace; gift-delivery; canonical booking",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Delivery remains test outbox; no live scheduler added"
+  },
+  {
+    "screen": "Calendar",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Bookings \u2192 Calendar",
+    "dependencies": "bookings",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Retained date list; not a drag/drop scheduling calendar"
+  },
+  {
+    "screen": "Tours",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 All tours",
+    "dependencies": "product:, golden:, tour:, discovery_links",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Smaller editor tabs, draft recovery, history, icon picker; SEO opens existing unified module"
+  },
+  {
+    "screen": "Transfers",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Transfers",
+    "dependencies": "same tour CMS filtered by productType",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Same reusable editor and booking logic"
+  },
+  {
+    "screen": "Destinations",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Destinations; Destination pages",
+    "dependencies": "discovery_terms/links; hub:destination",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Former double render split into taxonomy and page editors, same records"
+  },
+  {
+    "screen": "Starting locations",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Starting locations",
+    "dependencies": "discovery_terms/links",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Retained classification CRUD"
+  },
+  {
+    "screen": "Trip types",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Trip types",
+    "dependencies": "discovery_terms/links",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Retained classification CRUD"
+  },
+  {
+    "screen": "Activities",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Activities",
+    "dependencies": "discovery_terms/links",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Retained classification CRUD"
+  },
+  {
+    "screen": "Duration",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Duration",
+    "dependencies": "discovery_terms/links",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Retained classification CRUD"
+  },
+  {
+    "screen": "Social & footer",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Marketing \u2192 Social & footer",
+    "dependencies": "discovery-config",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing social/footer/discovery collections retained"
+  },
+  {
+    "screen": "Search & discovery",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Analytics \u2192 Search & discovery",
+    "dependencies": "consented discovery events",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing measured analytics retained"
+  },
+  {
+    "screen": "Appearance",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Settings \u2192 Appearance",
+    "dependencies": "config.design",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing public brand settings retained"
+  },
+  {
+    "screen": "Tour Content Review",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Tour Content Review",
+    "dependencies": "golden source and migration coverage",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Original-versus-structured comparison retained"
+  },
+  {
+    "screen": "Reusable Information",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Content \u2192 Reusable Information",
+    "dependencies": "golden-shared",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Inherited copy retained"
+  },
+  {
+    "screen": "Maps",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Operations \u2192 Maps",
+    "dependencies": "golden-shared.maps",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Provider, zoom, animation retained"
+  },
+  {
+    "screen": "Pricing",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Pricing",
+    "dependencies": "tour:",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "JSON seasonal/date rules replaced by structured forms"
+  },
+  {
+    "screen": "Coupons",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Marketing \u2192 Coupons",
+    "dependencies": "coupons",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing server-side discount logic retained"
+  },
+  {
+    "screen": "Availability",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Availability",
+    "dependencies": "tour:",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Shared pricing/availability editor retained"
+  },
+  {
+    "screen": "Customers",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Customers \u2192 Customers",
+    "dependencies": "canonical bookings",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing aggregate customer list retained; full CRM detail still pending"
+  },
+  {
+    "screen": "Enquiries",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Customers \u2192 Enquiries",
+    "dependencies": "records/lead",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Assignment/status/notes retained"
+  },
+  {
+    "screen": "Reviews",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Tours \u2192 Reviews",
+    "dependencies": "reputation/review engine",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Moderation and photo workflows retained"
+  },
+  {
+    "screen": "Help Center",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Content \u2192 Help Center",
+    "dependencies": "hub:faq + reusable tour FAQs",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Draft recovery/history added; existing reuse retained"
+  },
+  {
+    "screen": "About Us",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Content \u2192 About Us",
+    "dependencies": "about CMS published/draft/revisions",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing visual block and revision editor reused"
+  },
+  {
+    "screen": "Homepage offers",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Marketing \u2192 Gift offer & newsletter",
+    "dependencies": "config.homeMarketing",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing banner and subscriber functionality retained"
+  },
+  {
+    "screen": "Pages",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Content \u2192 Pages",
+    "dependencies": "page: + editorial",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Draft recovery/history added; source copy retained"
+  },
+  {
+    "screen": "Blog",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Content \u2192 Blog",
+    "dependencies": "page: + editorial",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Same structured editorial editor; draft default URL no longer new-tour"
+  },
+  {
+    "screen": "Media library",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Content \u2192 Media library",
+    "dependencies": "R2, media records, media-meta:",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Bulk upload; existing alt/caption/folders/tags; homepage-use deletion guard"
+  },
+  {
+    "screen": "Email templates",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Content \u2192 Email templates",
+    "dependencies": "email:, test outbox",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Draft recovery/history; dedicated data query, shared branding retained"
+  },
+  {
+    "screen": "SEO & AI Visibility",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Marketing \u2192 SEO & AI Visibility",
+    "dependencies": "existing seo platform/settings/records",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Stable modules reused; tour editor linked to same panel"
+  },
+  {
+    "screen": "Languages",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Settings \u2192 Languages",
+    "dependencies": "translation:",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Standalone editor replaces old dashboard wrapper"
+  },
+  {
+    "screen": "Transfer routes",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Operations \u2192 Transfer routes",
+    "dependencies": "routes",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing reviewed route data retained"
+  },
+  {
+    "screen": "Analytics",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Analytics \u2192 Overview",
+    "dependencies": "canonical booking views",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Replaced duplicate dashboard with booking-type/tour breakdowns"
+  },
+  {
+    "screen": "Users",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Settings \u2192 Users & roles",
+    "dependencies": "staff, staff-roles, private-preview-owner",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Scoped content/SEO/operations/finance/partner-manager permissions; legacy owner/admin retained"
+  },
+  {
+    "screen": "Integrations",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Settings \u2192 Integrations",
+    "dependencies": "integrations",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing future config retained, simulation accurately labeled"
+  },
+  {
+    "screen": "Company details",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Settings \u2192 Company details",
+    "dependencies": "company",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Existing company/logo editor retained"
+  },
+  {
+    "screen": "Settings",
+    "previousRoute": "/admin/ (internal state only)",
+    "target": "Settings \u2192 Booking & currencies",
+    "dependencies": "config",
+    "permissions": "Administrator; explicitly scoped roles only where permitted in lib/admin-permissions.ts",
+    "notes": "Structured currency inputs replace JSON; drafts/history added"
+  }
+]

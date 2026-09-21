@@ -1,0 +1,56 @@
+{
+  "types": {
+    "TravelAgency": 19,
+    "Organization": 48,
+    "ImageObject": 53,
+    "WebSite": 27,
+    "SearchAction": 9,
+    "WebPage": 15,
+    "FAQPage": 44,
+    "Question": 361,
+    "Answer": 361,
+    "BreadcrumbList": 88,
+    "ListItem": 227,
+    "AboutPage": 1,
+    "Product": 32,
+    "Brand": 30,
+    "AggregateOffer": 29,
+    "AggregateRating": 27,
+    "Review": 30,
+    "Person": 44,
+    "BlogPosting": 14,
+    "CollectionPage": 1,
+    "SiteNavigationElement": 123,
+    "Offer": 3,
+    "Rating": 1,
+    "ItemPage": 2
+  },
+  "parseErrors": [
+    {
+      "path": "/morocco-vacation-packages/",
+      "block": 2,
+      "error": "Invalid control character at: line 31 column 218 (char 1406)"
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-tangier-and-tetouan-from-gibraltar/",
+      "block": 3,
+      "error": "Invalid control character at: line 6 column 243 (char 447)"
+    },
+    {
+      "path": "/tangier-day-trips/full-day-trip-to-tangier-from-tarifa-spain/",
+      "block": 3,
+      "error": "Invalid control character at: line 31 column 85 (char 1282)"
+    },
+    {
+      "path": "/tangier-day-trips/tangier-day-trip-from-seville/",
+      "block": 2,
+      "error": "Invalid control character at: line 31 column 328 (char 1786)"
+    },
+    {
+      "path": "/tangier-day-trips/tangier-shore-excursion/",
+      "block": 3,
+      "error": "Invalid control character at: line 31 column 250 (char 1513)"
+    }
+  ],
+  "action": "Valid schema is retained byte-for-byte. Five source blocks with raw JSON string control characters are escaped at render time, without changing parsed values. Original snapshots remain untouched. Semantic rich-result eligibility and configured-price alignment require a separate reviewed release audit; no new schema types are added."
+}

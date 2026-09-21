@@ -1,0 +1,1 @@
+CREATE INDEX `bookings_tour_date_status` ON `bookings` (`tour`,`date`,`status`);

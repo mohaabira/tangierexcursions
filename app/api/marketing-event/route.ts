@@ -1,0 +1,2 @@
+import {captureEvent,isolateMarketing} from '@/lib/marketing';
+export async function POST(req:Request){if(req.headers.get('origin')!==new URL(req.url).origin)return new Response(null,{status:403});if(Number(req.headers.get('content-length')||0)>5000)return new Response(null,{status:413});const raw=await req.text();if(raw.length>5000)return new Response(null,{status:413});const result=await isolateMarketing(()=>captureEvent(JSON.parse(raw)));return Response.json(result||{ok:true,recorded:false},{headers:{'Cache-Control':'no-store'}});}

@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Published Tarifa quote: four travelers = EUR 348",
+    "status": "passed"
+  },
+  {
+    "name": "Impossible dates rejected",
+    "status": "passed"
+  },
+  {
+    "name": "Customer denied administration",
+    "status": "passed"
+  },
+  {
+    "name": "Booking ignores client amount and records authoritative EUR total",
+    "status": "passed"
+  },
+  {
+    "name": "Duplicate confirmation is idempotent",
+    "status": "passed"
+  },
+  {
+    "name": "Customer booking isolation",
+    "status": "passed"
+  },
+  {
+    "name": "Voucher details require authenticated staff",
+    "status": "passed"
+  },
+  {
+    "name": "Staff voucher verification returns minimal operational data",
+    "status": "passed"
+  },
+  {
+    "name": "Wishlist and branded test outbox persist",
+    "status": "passed"
+  },
+  {
+    "name": "Cancellation revokes existing QR token",
+    "status": "passed"
+  },
+  {
+    "name": "Custom enquiry appears in staff dashboard",
+    "status": "passed"
+  },
+  {
+    "name": "Concurrent bookings cannot exceed capacity",
+    "status": "passed"
+  },
+  {
+    "name": "Development identity switch disabled in production build",
+    "status": "passed"
+  },
+  {
+    "name": "Representative routes render with canonical metadata and noindex",
+    "status": "passed"
+  },
+  {
+    "name": "Unknown routes return real 404",
+    "status": "passed"
+  },
+  {
+    "name": "Admin pricing saves and reloads",
+    "status": "passed"
+  },
+  {
+    "name": "Date override, children, infants, extras, supplements, deposit and currency agree",
+    "status": "passed"
+  },
+  {
+    "name": "Seasonal pricing applies",
+    "status": "passed"
+  },
+  {
+    "name": "Saved content renders while audited metadata remains separate",
+    "status": "passed"
+  },
+  {
+    "name": "Customers cannot edit content",
+    "status": "passed"
+  },
+  {
+    "name": "New content stays private as draft until marked reviewed",
+    "status": "passed"
+  },
+  {
+    "name": "Transfer route database saves and reads",
+    "status": "passed"
+  },
+  {
+    "name": "Review requires a completed booking",
+    "status": "passed"
+  },
+  {
+    "name": "Completed booking review is moderated and published without rating gate",
+    "status": "passed"
+  },
+  {
+    "name": "Reminder/review simulations are idempotent",
+    "status": "passed"
+  },
+  {
+    "name": "Saved templates connect to safe test event outbox",
+    "status": "passed"
+  },
+  {
+    "name": "Promotional code is applied authoritatively before deposit calculation",
+    "status": "passed"
+  },
+  {
+    "name": "All 72 original routes render and retain audited titles and canonical URLs",
+    "status": "passed"
+  },
+  {
+    "name": "Authenticated image upload persists in object storage and serves with correct MIME type",
+    "status": "passed"
+  }
+]

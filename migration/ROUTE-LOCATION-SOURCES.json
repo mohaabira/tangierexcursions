@@ -1,0 +1,202 @@
+{
+  "source": "https://download.geonames.org/export/dump/cities500.zip",
+  "license": "CC BY 4.0",
+  "note": "Approximate named city centres; lines are not road directions. Existing Golden Tour coordinates preserved.",
+  "tours": [
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-gibraltar/",
+      "points": 6,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-malaga/",
+      "points": 5,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-marbella/",
+      "points": 5,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-seville/",
+      "points": 6,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-spain/",
+      "points": 6,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-gibraltar/",
+      "points": 5,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-malaga/",
+      "points": 6,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-marbella/",
+      "points": 6,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-seville/",
+      "points": 6,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-tarifa/",
+      "points": 7,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/5-day-morocco-tour-from-spain/",
+      "points": 7,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/travel-from-spain-to-morocco/",
+      "points": 5,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/best-tangier-tours/trip-tangier-to-fes-chefchaouen-4-days-3-nights/",
+      "points": 8,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/desert-trips/morocco-desert-trip-from-spain/",
+      "points": 8,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/morocco-vacation-packages/best-private-morocco-tour-10-days-9-nights/",
+      "points": 8,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/morocco-vacation-packages/marrakech-desert-tour/",
+      "points": 2,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/morocco-vacation-packages/marrakech-desert-trip-7-days-6-nights/",
+      "points": 3,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/morocco-vacation-packages/morocco-trip-15-days-14-nights/",
+      "points": 14,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/benalmadena-to-morocco-day-trip/",
+      "points": 5,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/cadiz-to-morocco-day-trip/",
+      "points": 7,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-from-marbella-to-morocco/",
+      "points": 5,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-morocco-from-spain/",
+      "points": 6,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-tangier-and-asilah/",
+      "points": 4,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-tangier-and-tetouan-from-gibraltar/",
+      "points": 4,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/estepona-to-tangier-day-trip/",
+      "points": 5,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/fuengirola-to-morocco-day-trip/",
+      "points": 7,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/malaga-day-trip-to-morocco/",
+      "points": 5,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/rota-to-morocco-day-trip/",
+      "points": 7,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/sotogrande-to-morocco-day-trip/",
+      "points": 6,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/tangier-day-trip-from-seville/",
+      "points": 2,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/tangier-food-tour/",
+      "points": 1,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/tangier-guided-walking-tour/",
+      "points": 2,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/tangier-shore-excursion/",
+      "points": 2,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/tangier-to-chefchaouen-day-trip/",
+      "points": 2,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/tarifa-to-chefchaouen-day-trip/",
+      "points": 3,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-day-trips/torremolinos-to-morocco-day-trip/",
+      "points": 7,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-taxi/tangier-to-chefchaouen-taxi/",
+      "points": 2,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/tangier-taxi/tangier-to-fes-via-chefchaouen/",
+      "points": 3,
+      "status": "Approximate locations — review required"
+    },
+    {
+      "path": "/taxi-transfers/tangier-airport-taxi/",
+      "points": 1,
+      "status": "Approximate locations — review required"
+    }
+  ]
+}

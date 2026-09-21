@@ -1,0 +1,112 @@
+{
+  "scope": "isolated staging fixtures, not hosted historical records",
+  "tests": [
+    {
+      "name": "Direct booking uses canonical record and server pricing",
+      "status": "passed"
+    },
+    {
+      "name": "Deposit ledger and derived balance",
+      "status": "passed"
+    },
+    {
+      "name": "Payment idempotency",
+      "status": "passed"
+    },
+    {
+      "name": "Partner guest arrangement shares base price and canonical booking",
+      "status": "passed"
+    },
+    {
+      "name": "Partner partner arrangement shares base price and canonical booking",
+      "status": "passed"
+    },
+    {
+      "name": "Partner tenant isolation and document privacy",
+      "status": "passed"
+    },
+    {
+      "name": "Purchaser and traveler identities separated",
+      "status": "passed"
+    },
+    {
+      "name": "Fixed-date gift references same canonical table",
+      "status": "passed"
+    },
+    {
+      "name": "Flexible gift scheduling updates the original booking",
+      "status": "passed"
+    },
+    {
+      "name": "Admin journey and server authorization",
+      "status": "passed"
+    },
+    {
+      "name": "Custom enquiry conversion is linked and nonduplicating",
+      "status": "passed"
+    },
+    {
+      "name": "Partial refund updates payment projection without recreating refunded debt",
+      "status": "passed"
+    },
+    {
+      "name": "Shared completion transition schedules review workflow",
+      "status": "passed"
+    },
+    {
+      "name": "Cancellation releases capacity and reverses commission projection",
+      "status": "passed"
+    },
+    {
+      "name": "Public/partner race cannot overbook shared capacity",
+      "status": "passed"
+    },
+    {
+      "name": "All channel totals reconcile to canonical bookings",
+      "status": "passed"
+    },
+    {
+      "name": "Booking retry returns same reference",
+      "status": "passed"
+    },
+    {
+      "name": "Legacy IDs, amounts and unknown fields remain unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "Amendment and cancellation reconcile document/supplier state and balance",
+      "status": "passed"
+    },
+    {
+      "name": "Gift voucher uses same booking and hides financial rows",
+      "status": "passed"
+    },
+    {
+      "name": "Document endpoints enforce booking access",
+      "status": "passed"
+    },
+    {
+      "name": "Partner-tour override takes priority over partner commission",
+      "status": "passed"
+    },
+    {
+      "name": "Recipient-bound guest payment link pays the same booking once",
+      "status": "passed"
+    },
+    {
+      "name": "Secure gift recipient redemption preserves booking identity and hides prices",
+      "status": "passed"
+    },
+    {
+      "name": "Booking links are hashed at rest and expire",
+      "status": "passed"
+    },
+    {
+      "name": "Revoked partner membership also blocks owner/account access",
+      "status": "passed"
+    }
+  ],
+  "canonicalCount": 13,
+  "canonicalTotal": 410745,
+  "externalPayments": "not connected"
+}

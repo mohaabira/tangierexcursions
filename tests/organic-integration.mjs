@@ -1,0 +1,46 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const wranglerRequire=createRequire(require.resolve('wrangler/package.json'));
+const {Miniflare}=wranglerRequire('miniflare');
+const root=process.cwd();
+const mf=new Miniflare({modules:[{type:'ESModule',path:path.join(root,'dist/server/index.js')},...fs.readdirSync('dist/server',{recursive:true}).filter(x=>x.endsWith('.js')&&x!=='index.js').map(x=>({type:'ESModule',path:path.join(root,'dist/server',x)}))],modulesRoot:path.join(root,'dist/server'),modulesRules:[{type:'ESModule',include:['**/*.js'],fallthrough:true}],compatibilityDate:'2026-05-15',compatibilityFlags:['nodejs_compat'],d1Databases:{DB:'test-database'},bindings:{ADMIN_USER_IDS:'test-admin',MARKETING_ENVIRONMENT:'staging'},assets:{directory:path.join(root,'dist/client'),binding:'ASSETS',routerConfig:{has_user_worker:true,invoke_user_worker_ahead_of_assets:true}},cf:false});
+const jar={};
+try{
+ const database=await mf.getD1Database('DB');
+ for(const filename of fs.readdirSync('drizzle').filter(x=>x.endsWith('.sql')).sort())for(const stmt of fs.readFileSync('drizzle/'+filename,'utf8').split('--> statement-breakpoint').map(x=>x.trim()).filter(Boolean))await database.prepare(stmt).run();
+ async function request(op,body,user='test-admin',useJar=true){const headers={'Content-Type':'application/json',Origin:'http://test.local'};if(user){headers['oai-authenticated-user-id']=user;headers['oai-authenticated-user-email']=user+'@example.test'}if(useJar)headers.Cookie=Object.entries(jar).map(([k,v])=>k+'='+v).join('; ');const r=await mf.dispatchFetch('http://test.local/api/'+op,{method:body===undefined?'GET':'POST',headers,...(body===undefined?{}:{body:JSON.stringify(body)})});for(const c of r.headers.getSetCookie()){const [k,v]=c.split(';')[0].split('=');if(v)jar[k]=v;else delete jar[k]}const raw=await r.text();return {status:r.status,data:raw?JSON.parse(raw):null};}
+ const action=(action,value={})=>request('organic-admin',{action,value});
+ let r=await request('organic-admin',undefined,'test-customer');assert.equal(r.status,403);
+ r=await request('organic-admin');assert.equal(r.status,200,JSON.stringify(r.data));assert.ok(r.data.pages.length>10);
+ const path='/knowledge/test-planning-answer/';
+ const value={path,name:'How do I plan a test journey?',reviewed:false,knowledge:{shortAnswer:'Review the itinerary and contact the team about your plans.',detailedAnswer:'<p>'+('This is a test editorial answer about planning and reviewing the selected journey before booking. '.repeat(4))+'</p>',category:'Travel Planning',reviewer:'Test Editor',lastReviewed:'2026-09-01',sources:[],relatedTours:[],destinations:[],departures:[],relatedQuestions:[],usefulLinks:[],factIds:[]}};
+ r=await action('knowledge',value);assert.equal(r.status,200,JSON.stringify(r.data));
+ let response=await mf.dispatchFetch('http://test.local'+path);assert.equal(response.status,404);
+ r=await action('knowledge',{...value,reviewed:true});assert.equal(r.status,200,JSON.stringify(r.data));
+ response=await mf.dispatchFetch('http://test.local'+path);let html=await response.text();assert.equal(response.status,200,html.slice(0,100));assert.ok(html.includes(value.knowledge.shortAnswer));assert.ok(html.includes('Last reviewed'));assert.ok(html.includes('Travel Knowledge Hub'));assert.ok(html.includes('noindex'));
+ r=await request('organic-admin?mode=inspect&path='+encodeURIComponent(path));assert.equal(r.status,200,JSON.stringify(r.data));assert.ok(r.data.schema.types.includes('Article'));assert.equal(r.data.schema.errors.length,0);
+ response=await mf.dispatchFetch('http://test.local/knowledge-sitemap.xml');assert.ok((await response.text()).includes(path));
+ response=await mf.dispatchFetch('http://test.local/blog-sitemap.xml');assert.ok(!(await response.text()).includes(path));
+ r=await action('relationship',{from:'/about-us/',to:path,type:'topic',publish:false});assert.equal(r.status,200);
+ response=await mf.dispatchFetch('http://test.local/about-us/');html=await response.text();assert.ok(!html.includes('href="'+path+'"'));
+ await action('relationship',{from:'/about-us/',to:path,type:'topic',publish:true,module:'Useful Travel Information'});
+ response=await mf.dispatchFetch('http://test.local/about-us/');html=await response.text();assert.ok(html.includes('href="'+path+'"'));
+ r=await action('review',{path,reviewer:'Test Editor',lastReviewed:'2020-01-01',intervalDays:30,hub:'Topic Hub'});assert.equal(r.status,200);
+ r=await request('seo-collection-save',{kind:'redirects',items:[{source:'/old-test/',destination:path,type:301}]});assert.equal(r.status,200,JSON.stringify(r.data));
+ response=await mf.dispatchFetch('http://test.local/old-test/?utm_source=test',{redirect:'manual'});assert.equal(response.status,301);assert.equal(new URL(response.headers.get('location'),'http://test.local').href,'http://test.local'+path+'?utm_source=test');
+ r=await request('seo-collection-save',{kind:'redirects',items:[{source:'/old-test/',destination:'/b/',type:301},{source:'/b/',destination:'/old-test/',type:301}]});assert.notEqual(r.status,200);
+ r=await request('seo-collection-save',{kind:'redirects',items:[{source:'/gone-test/',destination:'',type:410}]});assert.equal(r.status,200,JSON.stringify(r.data));response=await mf.dispatchFetch('http://test.local/gone-test/');assert.equal(response.status,410);
+ await mf.dispatchFetch('http://test.local/no-such-organic-page/?email=secret',{headers:{referer:'https://example.test/?email=secret'}});await mf.dispatchFetch('http://test.local/no-such-organic-page/');
+ const missing=await database.prepare("SELECT data FROM records WHERE id='seo404:/no-such-organic-page/'").first();assert.equal(JSON.parse(missing.data).hits,2);assert.ok(!missing.data.includes('secret'));
+ r=await action('migration-import',{csv:'Old URL,New URL,Action,Notes\n/legacy-test/,'+path+',301 redirect,review first'});assert.equal(r.status,200);
+ assert.ok(!(await database.prepare("SELECT value FROM settings WHERE key='seo:redirects'").first()).value.includes('/legacy-test/'));
+ r=await action('migration-apply',{index:0,reviewed:true});assert.equal(r.status,200,JSON.stringify(r.data));
+ response=await mf.dispatchFetch('http://test.local/legacy-test/',{redirect:'manual'});assert.equal(response.status,301);
+ r=await action('audit-start');assert.equal(r.status,200);const job=r.data;
+ r=await action('audit-batch',{id:job.id});assert.equal(r.status,200,JSON.stringify(r.data));assert.ok(r.data.cursor>0);assert.ok((await database.prepare("SELECT COUNT(*) n FROM records WHERE kind='seo-issue'").first()).n>0);
+ const issue=await database.prepare("SELECT id FROM records WHERE kind='seo-issue' LIMIT 1").first();r=await action('issues',{ids:[issue.id],status:'resolved'});assert.equal(r.status,200);
+ console.log('PASS permissions, knowledge drafts/publication/rendering, schema inspection, split sitemaps, approved visible relationships, reviews, 301/410 execution, loop rejection, private aggregated 404 capture, migration review/apply and durable audit batches');
+}finally{await mf.dispose()}

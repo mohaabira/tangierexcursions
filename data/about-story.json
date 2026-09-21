@@ -1,0 +1,400 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "enabled": true,
+      "eyebrow": "ABOUT TANGIER EXCURSIONS",
+      "heading": "Travel Morocco With People Who Know It",
+      "body": "<p>Tangier Excursions is a locally based travel company in Tangier, creating private journeys across Morocco and helping travelers make the crossing from southern Spain to Morocco simple, personal and memorable.</p>",
+      "background": "white",
+      "image": {
+        "url": "/wp-content/uploads/2020/03/about2.jpg",
+        "alt": "Travelers by the sea near Tangier",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "/wp-content/uploads/2020/03/chef1.jpg",
+        "alt": "Blue streets of Chefchaouen",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "Our story",
+      "ctaUrl": "#story",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "story",
+      "type": "story",
+      "enabled": true,
+      "eyebrow": "OUR STORY",
+      "heading": "It Starts in Tangier",
+      "body": "<p>Tangier has always been a meeting place. Africa and Europe face one another across the Strait of Gibraltar, different cultures have crossed its streets for generations, and travelers arriving here quickly discover that Morocco is much closer to southern Spain than a map can sometimes make it feel.</p><p>Tangier Excursions grew from that connection.</p><p>We are based here, on the Moroccan side of the Strait, and our work is built around helping travelers experience Morocco with people who understand it from the inside.</p><p>For some guests, that means spending a day discovering Tangier after taking the ferry from Tarifa. For others, it becomes several days through Chefchaouen and Fes, a journey south toward the Sahara, or a completely tailor-made route across Morocco.</p><p>Whatever the length of the journey, our role is the same: take care of the details so our guests can concentrate on the experience itself.</p>",
+      "background": "white",
+      "image": {
+        "url": "/wp-content/uploads/2024/03/Day-Trip-to-Morocco-from-Marbella-2.jpg",
+        "alt": "Cap Spartel lighthouse on Morocco’s northern coast",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "crossing",
+      "type": "crossing",
+      "enabled": true,
+      "eyebrow": "ACROSS THE STRAIT",
+      "heading": "Spain and Morocco, Connected Properly",
+      "body": "<p>A day trip from Spain to Morocco may look simple on paper, but making it run smoothly involves much more than buying a ferry ticket.</p><p>Pickup times need to work with ferry schedules. Travelers need to know where to go at the port. Transport on the Spanish side, ferry arrangements, arrival in Tangier, the local guide, the vehicle in Morocco and the return journey all need to fit together.</p><p>This is an important part of what Tangier Excursions does.</p><p>We regularly organize private journeys for travelers starting from places such as Tarifa, Seville, Malaga, Marbella, Gibraltar and other parts of southern Spain.</p><p>Rather than leaving guests to connect several unrelated services themselves, we aim to make the journey feel like one experience from beginning to end.</p>",
+      "background": "ink",
+      "image": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "local",
+      "type": "local",
+      "enabled": true,
+      "eyebrow": "LOCAL BY NATURE",
+      "heading": "Morocco Is Not Just Where We Work",
+      "body": "<p>The medinas, roads, cafés, landscapes and traditions our guests experience are part of everyday life here.</p><p>That local connection changes the way we design a journey.</p><p>We know that a memorable visit to Morocco is not simply a checklist of monuments. It can be a conversation with a local artisan, mint tea in an unexpected place, understanding what you are seeing inside a medina, stopping when a landscape deserves more time, or changing the pace because a family would rather explore slowly.</p><p>Our tours include Morocco's important sights, but we try to leave room for the moments that make a private journey feel personal.</p>",
+      "background": "white",
+      "image": {
+        "url": "/wp-content/uploads/2024/03/Day-Trip-to-Morocco-from-Marbella-3.jpg",
+        "alt": "Travelers exploring a Moroccan market",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "private",
+      "type": "private",
+      "enabled": true,
+      "eyebrow": "YOUR JOURNEY",
+      "heading": "Private Means More Than Having Your Own Vehicle",
+      "body": "<p>For us, private travel is about flexibility.</p><p>A couple visiting Morocco for the first time will not necessarily want the same experience as a family traveling with children, a group of friends crossing from Spain, or travelers returning to Morocco for a second or third visit.</p><p>That is why our itineraries are designed as a framework rather than a script.</p><p>Depending on the experience, we can adjust the pace, pickup arrangements, stops, accommodation level and other details around the people actually traveling.</p><p>There is still an itinerary and good planning behind the day. It simply should not feel as though the traveler has been fitted into somebody else's schedule.</p>",
+      "background": "sand",
+      "image": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "people",
+      "type": "people",
+      "enabled": true,
+      "eyebrow": "THE HUMAN SIDE",
+      "heading": "A Journey Is Only as Good as the People Behind It",
+      "body": "<p>Vehicles, hotels and ferry tickets matter. But years of working in tourism teach you something very quickly: people remember people.</p><p>They remember the guide who explained a place in a way that finally made sense. The driver who handled a long road calmly. The person who noticed that someone needed a break before they had to ask. The local host who made lunch feel less like a reservation and more like an invitation.</p><p>Tangier Excursions works with local guides, drivers, accommodation partners and travel professionals who help us deliver each journey.</p><p>We value professionalism, reliability and knowledge, but also something harder to measure: the ability to make travelers feel comfortable and welcome.</p>",
+      "background": "white",
+      "image": {
+        "url": "/wp-content/uploads/2022/01/Morocco-Day-Trips-from-Spain-6.jpg",
+        "alt": "Guests sharing a meal during a Morocco journey",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "values",
+      "type": "values",
+      "enabled": true,
+      "eyebrow": "",
+      "heading": "What You Can Expect From Us",
+      "body": "<p></p>",
+      "background": "ink",
+      "image": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "journeys",
+      "type": "journeys",
+      "enabled": true,
+      "eyebrow": "",
+      "heading": "From One Day in Tangier to a Journey Across Morocco",
+      "body": "<p>Some travelers meet us for a single day after crossing the Strait of Gibraltar. Others begin in Tangier and continue through Morocco for a week or more.</p><p>Tangier Excursions creates experiences that can include Tangier, Chefchaouen, Fes, Marrakech, the Sahara and destinations in between, as well as journeys beginning from southern Spain.</p><p>Whether the plan is a private day trip, a short Morocco escape or a multi-day itinerary, we approach it with the same idea: the route should make sense, the logistics should feel easy and the traveler should never feel like just another booking number.</p>",
+      "background": "white",
+      "image": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "trust",
+      "type": "trust",
+      "enabled": true,
+      "eyebrow": "",
+      "heading": "Plan With Confidence",
+      "body": "<p>Travel often involves questions before a booking is made, particularly when a journey crosses an international border or includes several destinations.</p><p>We encourage our guests to ask them.</p><p>Our team can help with practical details including pickup arrangements, ferry travel, passports, accommodation options, dietary requirements, traveling with children and itinerary planning.</p><p>Knowing what to expect before the journey begins is part of a good travel experience.</p>",
+      "background": "sand",
+      "image": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "Ask Us a Question",
+      "ctaUrl": "/transport_booking/",
+      "secondaryCtaLabel": "Visit Our FAQs",
+      "secondaryCtaUrl": "/faqs/"
+    },
+    {
+      "id": "reviews",
+      "type": "reviews",
+      "enabled": true,
+      "eyebrow": "",
+      "heading": "What Our Guests Say",
+      "body": "<p></p>",
+      "background": "white",
+      "image": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "responsible",
+      "type": "responsible",
+      "enabled": true,
+      "eyebrow": "",
+      "heading": "Travel That Keeps More Value Local",
+      "body": "<p>Tourism works best when the places travelers visit benefit from the journey too.</p><p>Where practical, Tangier Excursions works with local guides, drivers, accommodation providers, restaurants and other independent businesses.</p><p>We also believe authenticity does not require staging everyday Moroccan life for visitors. Respect for local communities, culture and the places we visit should be part of the experience naturally.</p>",
+      "background": "white",
+      "image": {
+        "url": "/wp-content/uploads/2022/01/Morocco-Day-Trips-from-Spain-1.jpg",
+        "alt": "Moroccan tea served in a traditional setting",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "",
+      "ctaUrl": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaUrl": ""
+    },
+    {
+      "id": "final",
+      "type": "final",
+      "enabled": true,
+      "eyebrow": "",
+      "heading": "Morocco Is Closer Than You Think",
+      "body": "<p>Sometimes it begins with a ferry crossing.</p><p>Sometimes with a flight into Morocco.</p><p>Sometimes with nothing more than an idea of the places you would like to see.</p><p>Tell us where you would like to begin.</p><p>We'll help you work out the rest.</p>",
+      "background": "white",
+      "image": {
+        "url": "/wp-content/uploads/2024/03/Tangier-day-trip-from-Seville.jpg",
+        "alt": "Camel riders on Morocco’s northern coastline",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "secondaryImage": {
+        "url": "",
+        "alt": "",
+        "caption": "",
+        "demo": true,
+        "x": 50,
+        "y": 50
+      },
+      "ctaLabel": "Explore Our Tours",
+      "ctaUrl": "/destinations/",
+      "secondaryCtaLabel": "Plan a Custom Trip",
+      "secondaryCtaUrl": "custom"
+    }
+  ],
+  "values": [
+    {
+      "id": "value-0",
+      "title": "Local knowledge",
+      "description": "We design our journeys from Morocco, not from a distant booking office.",
+      "icon": "compass",
+      "visible": true
+    },
+    {
+      "id": "value-1",
+      "title": "Private by design",
+      "description": "Our private experiences give travelers more control over pace, interests and the way they spend their time.",
+      "icon": "users",
+      "visible": true
+    },
+    {
+      "id": "value-2",
+      "title": "Practical organization",
+      "description": "From pickups and ferry arrangements to guides, vehicles and accommodation, we pay attention to the parts of travel that need to work properly.",
+      "icon": "route",
+      "visible": true
+    },
+    {
+      "id": "value-3",
+      "title": "Room for the unexpected",
+      "description": "Good planning matters, but some of the best travel moments cannot be placed on a timetable.",
+      "icon": "sun",
+      "visible": true
+    }
+  ],
+  "team": [],
+  "teamHeading": "Meet the people behind your journey",
+  "route": [
+    "Southern Spain",
+    "Tarifa",
+    "Strait of Gibraltar",
+    "Tangier",
+    "Morocco"
+  ],
+  "categories": [],
+  "categoryMode": "auto",
+  "reviews": {
+    "mode": "auto",
+    "ids": [],
+    "limit": 6
+  },
+  "updated": "Supplied editorial brief",
+  "editor": "Tangier Excursions"
+}

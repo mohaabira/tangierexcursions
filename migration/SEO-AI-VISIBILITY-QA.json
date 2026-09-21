@@ -1,0 +1,19 @@
+{
+  "passed": 12,
+  "checks": [
+    "Existing titles, descriptions, canonicals, schema and URLs form the unified fallback profile",
+    "Grounded keyword suggestions, intent clusters and cannibalization candidates contain no invented metrics",
+    "Focus keywords and page intent persist to the unified profile",
+    "Protected noindex and canonical-class changes require explicit confirmation",
+    "Grounded title, meta, FAQ, link, brief and analysis tasks return reviewable drafts",
+    "Keyword-to-URL map and watchlist persist",
+    "Redirect manager accepts 301/302/307/410 rules and rejects loops",
+    "Bulk non-destructive SEO editing persists with protected-field safeguards",
+    "Dynamic sitemap index, content sitemaps, image entries and curated llms.txt render server-side",
+    "Privacy-conscious 404 monitoring records unknown local paths without IP data",
+    "Private preview preserves server-rendered canonical metadata and global noindex protection",
+    "SEO history and explainable category analysis are available"
+  ],
+  "externalProviders": "Not connected; no external metrics claimed",
+  "visualQA": "Managed preview healthy; cloud browser navigation timed out, so automated visual inspection remains pending."
+}

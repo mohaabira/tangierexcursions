@@ -1,0 +1,110 @@
+{
+  "runAt": "2026-09-18T20:58:19.547Z",
+  "evidence": [
+    {
+      "name": "All three default homepage carousels contain actual server-rendered tour cards",
+      "status": "passed"
+    },
+    {
+      "name": "Renaming trip types does not remove homepage cards",
+      "status": "passed"
+    },
+    {
+      "name": "Audited original collections recover real cards when discovery relationships are missing",
+      "status": "passed"
+    },
+    {
+      "name": "Partial legacy homepage settings retain the three trip carousels",
+      "status": "passed"
+    },
+    {
+      "name": "Homepage defaults preserve all nine approved section records",
+      "status": "passed"
+    },
+    {
+      "name": "Homepage section deletion is rejected; hide instead",
+      "status": "passed"
+    },
+    {
+      "name": "Homepage configuration persists independently",
+      "status": "passed"
+    },
+    {
+      "name": "Server-rendered homepage consumes saved section headings and selected products",
+      "status": "passed"
+    },
+    {
+      "name": "Exact regression: remove paragraph, save tour, reload homepage; every carousel and classification retained",
+      "status": "passed"
+    },
+    {
+      "name": "Copy-only edits preserve pricing and SEO metadata",
+      "status": "passed"
+    },
+    {
+      "name": "Tour history records recoverable before-state",
+      "status": "passed"
+    },
+    {
+      "name": "Autosaved draft survives fresh read without publishing",
+      "status": "passed"
+    },
+    {
+      "name": "Reviewed revision can be restored through the normal validated tour save",
+      "status": "passed"
+    },
+    {
+      "name": "All five scoped staff assignments survive authentication",
+      "status": "passed"
+    },
+    {
+      "name": "Scoped staff cannot read full admin settings or escalate roles",
+      "status": "passed"
+    },
+    {
+      "name": "Content and SEO roles cannot invoke unauthorized content or financial services",
+      "status": "passed"
+    },
+    {
+      "name": "Content workspace excludes guest records and private integration settings",
+      "status": "passed"
+    },
+    {
+      "name": "Operations, finance, partner manager and SEO read models accessible to their scoped roles",
+      "status": "passed"
+    },
+    {
+      "name": "Drafts are isolated by staff identity",
+      "status": "passed"
+    },
+    {
+      "name": "Anonymous users cannot save editor drafts",
+      "status": "passed"
+    },
+    {
+      "name": "Explicit homepage visibility affects only selected section",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid structured content cannot partially update tour fields",
+      "status": "passed"
+    },
+    {
+      "name": "Unified tour save persists product and structured content together",
+      "status": "passed"
+    },
+    {
+      "name": "Private draft preview renders unsaved title without publishing it",
+      "status": "passed"
+    },
+    {
+      "name": "Customer notes persist and remain staff-private",
+      "status": "passed"
+    },
+    {
+      "name": "All major existing admin service modules still read successfully",
+      "status": "passed"
+    }
+  ],
+  "browserQA": "Unavailable: supervised browser could not load internal preview; responsive and cross-browser manual QA remains required."
+}

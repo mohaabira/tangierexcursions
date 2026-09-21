@@ -1,0 +1,2 @@
+import {db} from '@/lib/server';
+export async function GET(){const rows=(await db().prepare("SELECT key,value FROM settings WHERE key LIKE 'translation:%'").all<any>()).results;const urls=rows.filter(r=>JSON.parse(r.value).reviewed).map(r=>{const [,lang,path]=r.key.split(':');return `<url><loc>https://www.tangierexcursions.com/${lang}${path}</loc></url>`}).join('');return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>`,{headers:{'Content-Type':'application/xml','X-Robots-Tag':'noindex'}})}

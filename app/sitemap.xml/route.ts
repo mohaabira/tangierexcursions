@@ -1,0 +1,3 @@
+import {sitemapPages} from '@/lib/seo-platform';
+const esc=(s:string)=>s.replace(/[<>&'\"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;',"'":'&apos;','"':'&quot;'}[c]!));
+export async function GET(){const base='https://www.tangierexcursions.com';const maps=['pages','tours','blog','destinations','landing','knowledge'];const xml=`<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${maps.map(x=>`<sitemap><loc>${base}/${x}-sitemap.xml</loc></sitemap>`).join('')}</sitemapindex>`;return new Response(xml,{headers:{'Content-Type':'application/xml; charset=utf-8','Cache-Control':'public, max-age=300','X-Robots-Tag':'noindex'}})}

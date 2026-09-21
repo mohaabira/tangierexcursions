@@ -1,0 +1,16 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {searchTours,discoveryUrl} from '../lib/discovery-engine.ts';
+import {preservedSchema} from '../lib/schema-preservation.ts';
+const audit=JSON.parse(fs.readFileSync('migration/discovery-inventory-audit.json'));const models=JSON.parse(fs.readFileSync('data/structured-tours.json'));
+const data={terms:audit.terms,tours:Object.values(models).map(t=>({...t,terms:audit.links.filter(l=>l.tour===t.path).map(l=>l.term),price:t.baseTiers?.length?Math.min(...t.baseTiers.map(p=>p.price)):null}))};
+test('Combined origin + trip type + destination returns relevant day trip',()=>{const r=searchTours(data,'',['origin-seville','type-private-day-trips','destination-tangier']);assert.equal(r.length,1);assert.match(r[0].path,/tangier-day-trip-from-seville/)});
+test('Autocomplete normalizes accents and matches partial destination names',()=>{assert.ok(searchTours(data,'malaga').length>=3);assert.ok(searchTours(data,'Tan').length>0)});
+test('Conflicting origin and desert filters return a real empty state',()=>{assert.equal(searchTours(data,'',['origin-rota','type-desert-tours']).length,0)});
+test('Same-facet selection uses union; different facets intersect',()=>{const r=searchTours(data,'',['origin-seville','origin-malaga','type-private-day-trips']);assert.equal(r.length,2)});
+test('Day-trip facet excludes two-day and longer products',()=>{assert.ok(searchTours(data,'',['type-private-day-trips']).every(t=>!t.path.includes('/best-tangier-tours/')))});
+test('Destination assignments exclude testimonial-only Fes claim',()=>{assert.ok(!searchTours(data,'',['origin-malaga','destination-fes']).length)});
+test('Price filter excludes unpriced tours and sorts actual tier prices',()=>{const r=searchTours(data,'',[],'price-asc',100);assert.ok(r.every(t=>t.price!==null&&t.price<=100));assert.ok(r.every((t,i)=>!i||r[i-1].price<=t.price))});
+test('Search URL encodes query without creating taxonomy archives',()=>{assert.equal(discoveryUrl(['origin-seville'],'food & culture'),'/search/?q=food+%26+culture&filters=origin-seville')});
+test('All migrated schema blocks become parseable; valid blocks stay byte-identical',()=>{let repaired=0;for(const p of JSON.parse(fs.readFileSync('data/catalog.json')))for(const s of p.structured_data){const next=preservedSchema(s);assert.doesNotThrow(()=>JSON.parse(next));try{JSON.parse(s);assert.equal(next,s)}catch{repaired++}}assert.equal(repaired,5)});

@@ -1,0 +1,667 @@
+{
+  "total": 40,
+  "templateApplied": 40,
+  "manualAttention": 40,
+  "browserQA": "Blocked: supervised browser reports page could not load. No desktop/tablet/mobile visual pass claimed.",
+  "checks": [
+    {
+      "name": "All 40 published products render Golden template, own metadata and images, custom action and dedicated reviews; all structured editors save and reload",
+      "status": "passed"
+    },
+    {
+      "name": "Per-person, per-group and fixed tier totals, currency conversion and deposits",
+      "status": "passed"
+    },
+    {
+      "name": "Ferry confirmation, partial/complete encrypted passenger forms, access isolation, minimal supplier notifications, idempotent confirmation and no public supplier leakage",
+      "status": "passed"
+    },
+    {
+      "name": "Tour-specific custom enquiry persists current experience",
+      "status": "passed"
+    }
+  ],
+  "inventory": [
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-gibraltar/",
+      "title": "2-Day Trip to Morocco from Gibraltar",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-malaga/",
+      "title": "2-Day Trip to Morocco from Malaga",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-marbella/",
+      "title": "2-Day Trip to Morocco from Marbella",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-seville/",
+      "title": "2-Day Trip to Morocco from Seville",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/2-day-trip-to-morocco-from-spain/",
+      "title": "2 Day Trip to Morocco from Spain",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-gibraltar/",
+      "title": "3 Day Morocco tour from Gibraltar",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-malaga/",
+      "title": "3 Day Morocco tour from Malaga",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-marbella/",
+      "title": "3 Day Morocco tour from Marbella",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-seville/",
+      "title": "3 Day Morocco tour from Seville",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/3-day-morocco-tour-from-tarifa/",
+      "title": "3 Day Morocco tour from Tarifa",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/5-day-morocco-tour-from-spain/",
+      "title": "PRIVATE 5 DAY MOROCCO TOUR FROM SPAIN",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/travel-from-spain-to-morocco/",
+      "title": "TRAVEL FROM SPAIN TO MOROCCO 3 DAYS / 2 NIGHTS",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/best-tangier-tours/trip-tangier-to-fes-chefchaouen-4-days-3-nights/",
+      "title": "4-Day Morocco Tour from Spain",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/desert-trips/morocco-desert-trip-from-spain/",
+      "title": "Morocco Desert Trip From Spain 11 D / 10 N | Tangier Excursions",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing highlights",
+        "Missing itinerary",
+        "Missing included",
+        "Missing excluded",
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/morocco-vacation-packages/best-private-morocco-tour-10-days-9-nights/",
+      "title": "BEST PRIVATE MOROCCO TOUR 10 DAYS / 9 NIGHTS",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/morocco-vacation-packages/marrakech-desert-tour/",
+      "title": "MARRAKECH DESERT TOUR 8 DAYS / 7 NIGHTS",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/morocco-vacation-packages/marrakech-desert-trip-7-days-6-nights/",
+      "title": "MARRAKECH DESERT TRIP 7 DAYS / 6 NIGHTS",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/morocco-vacation-packages/morocco-trip-15-days-14-nights/",
+      "title": "Morocco Trip 15 Days/14 Nights",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "day",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/benalmadena-to-morocco-day-trip/",
+      "title": "Benalmadena to Morocco Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "time",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/cadiz-to-morocco-day-trip/",
+      "title": "Cadiz to Morocco Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "time",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-from-marbella-to-morocco/",
+      "title": "Day Trip from Marbella to Morocco",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-morocco-from-spain/",
+      "title": "Luxury Day Trip to Morocco from Spain",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-tangier-and-asilah/",
+      "title": "Best Day Trip to Tangier and Asilah",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/day-trip-to-tangier-and-tetouan-from-gibraltar/",
+      "title": "Best Tangier and Tetouan Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/estepona-to-tangier-day-trip/",
+      "title": "Private Estepona to Tangier Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/fuengirola-to-morocco-day-trip/",
+      "title": "Fuengirola to Morocco Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "time",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/full-day-trip-to-tangier-from-tarifa-spain/",
+      "title": "Best Day Trip to Tangier from Tarifa, Spain",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/malaga-day-trip-to-morocco/",
+      "title": "Luxury Malaga Day Trip to Morocco",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/rota-to-morocco-day-trip/",
+      "title": "Rota to Morocco Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "time",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/sotogrande-to-morocco-day-trip/",
+      "title": "Sotogrande to Morocco Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "time",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/tangier-day-trip-from-seville/",
+      "title": "Tangier Day Trip from Seville",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing itinerary",
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/tangier-food-tour/",
+      "title": "Cultural Tangier Food Tour",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/tangier-guided-walking-tour/",
+      "title": "Best Tangier Guided Walking Tour",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/tangier-shore-excursion/",
+      "title": "Private Tangier Shore Excursion",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/tangier-to-chefchaouen-day-trip/",
+      "title": "Tangier to Chefchaouen Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/tarifa-to-chefchaouen-day-trip/",
+      "title": "Tarifa to Chefchaouen Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "time",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/tangier-day-trips/torremolinos-to-morocco-day-trip/",
+      "title": "Torremolinos to Morocco Day Trip",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "time",
+      "quote": "Server quote passed",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Map coordinates require review",
+        "Cancellation policy requires review"
+      ]
+    },
+    {
+      "path": "/tangier-taxi/tangier-to-chefchaouen-taxi/",
+      "title": "Tangier to Chefchaouen Taxi & Airport Transfers",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing highlights",
+        "Missing itinerary",
+        "Missing included",
+        "Missing excluded",
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/tangier-taxi/tangier-to-fes-via-chefchaouen/",
+      "title": "Private Taxi Transfer Tangier To Fes Via Chefchaouen | Tangier Excursions",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing highlights",
+        "Missing itinerary",
+        "Missing included",
+        "Missing excluded",
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    },
+    {
+      "path": "/taxi-transfers/tangier-airport-taxi/",
+      "title": "Best Private Tangier Airport Taxi Transfers | Tangier Excursions",
+      "template": "golden-v3",
+      "httpStatus": 200,
+      "seo": "preserved",
+      "gallery": "own images",
+      "mode": "stop",
+      "quote": "Enquiry only — no configured tiers",
+      "admin": "saved and reloaded",
+      "gaps": [
+        "Missing highlights",
+        "Missing itinerary",
+        "Missing included",
+        "Missing excluded",
+        "Missing faqs",
+        "Map coordinates require review",
+        "Cancellation policy requires review",
+        "Sequential source itinerary retained; exact times not supplied"
+      ]
+    }
+  ]
+}

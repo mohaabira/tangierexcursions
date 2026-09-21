@@ -1,0 +1,25 @@
+{
+  "passed": 5,
+  "checks": [
+    {
+      "name": "Authenticated image upload persists in object storage and serves with correct MIME type",
+      "status": "passed"
+    },
+    {
+      "name": "Golden Tour featured image and gallery placement persist after a fresh authenticated read",
+      "status": "passed"
+    },
+    {
+      "name": "Saved itinerary photo renders in its structured stop",
+      "status": "passed"
+    },
+    {
+      "name": "Image deletion remains blocked by an itinerary placement after gallery removal",
+      "status": "passed"
+    },
+    {
+      "name": "Removing the final placement allows library removal while preserving the original file",
+      "status": "passed"
+    }
+  ]
+}

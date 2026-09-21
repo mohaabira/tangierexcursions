@@ -1,0 +1,29 @@
+[
+  {
+    "file": "public/assets/hero/tangier-excursions-hero-desktop.mp4",
+    "bytes": 8003940,
+    "sha256": "ab74f7b5761d5255040219a6845a20541e1a06629d68177676ecfa79f69ab4ec",
+    "width": 1344,
+    "height": 768,
+    "duration": "24.033333",
+    "audioTracks": 0
+  },
+  {
+    "file": "public/assets/hero/tangier-excursions-hero-mobile.mp4",
+    "bytes": 2511029,
+    "sha256": "6704440d6382568ec3c77d7b7eb989eef2929a0c36073b93cc78df4e9981e4e2",
+    "width": 540,
+    "height": 960,
+    "duration": "24.033333",
+    "audioTracks": 0
+  },
+  {
+    "file": "public/assets/hero/tangier-excursions-hero-poster.jpg",
+    "bytes": 229724,
+    "sha256": "7a40aed8ea8d7fe02bd667f2f9a22f3c73529901af02cdd9d5d14e5c9486a963",
+    "width": 1344,
+    "height": 768,
+    "duration": "0.040000",
+    "audioTracks": 0
+  }
+]

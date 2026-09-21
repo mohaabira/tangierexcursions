@@ -1,0 +1,37 @@
+{
+  "passed": 8,
+  "checks": [
+    {
+      "name": "All 40 structured tours save and reload with immutable original source",
+      "status": "passed"
+    },
+    {
+      "name": "Nested timed events, accommodation and 12-hour display persist and render on multiday tours",
+      "status": "passed"
+    },
+    {
+      "name": "Nested itinerary event deletion persists",
+      "status": "passed"
+    },
+    {
+      "name": "Duplicate copies structured itinerary as an unpublished draft; draft editing and protected deletion work",
+      "status": "passed"
+    },
+    {
+      "name": "Journal settings persist through admin authentication and update server-rendered article without altering canonical",
+      "status": "passed"
+    },
+    {
+      "name": "Unknown editorial relationships rejected; clearing recommendations and answers persists",
+      "status": "passed"
+    },
+    {
+      "name": "Guide helpfulness uses consented anonymous aggregate without storing identity",
+      "status": "passed"
+    },
+    {
+      "name": "Journal, About, legal and landing pages expose shared footer controls; custom 404 retains correct status",
+      "status": "passed"
+    }
+  ]
+}

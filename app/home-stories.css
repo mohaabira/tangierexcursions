@@ -1,0 +1,33 @@
+/* Lightweight guest-story rail: native scrolling and existing keyboard controls. */
+.hero-playback{position:absolute;z-index:3;right:max(22px,calc((100vw - 1140px)/2));top:100px;width:44px;height:44px;display:grid;place-items:center;border:1px solid #ffffff70;border-radius:50%;background:#102d4380;color:white;backdrop-filter:blur(8px);transition:background 180ms}
+.hero-playback:hover{background:#102d43cc}.hero-playback:focus-visible{outline:3px solid #f1bd54;outline-offset:4px}
+.golden-timeline>li:has(.itinerary-day){grid-template-columns:28px minmax(0,1fr);gap:8px 12px}
+.golden-timeline>li:has(.itinerary-day)>.timeline-label{grid-column:2;grid-row:1;padding:0;display:flex;gap:10px;align-items:center}
+.golden-timeline>li:has(.itinerary-day)>.timeline-dot{grid-column:1;grid-row:1}
+.golden-timeline>li:has(.itinerary-day)>.timeline-content{grid-column:2;grid-row:2;padding:0}
+.golden-timeline>li:has(.itinerary-day):not(:last-child):before{left:14px}
+.golden-tour .day-events>li{grid-template-columns:minmax(0,1fr);gap:2px;padding:12px 0}
+.golden-tour .day-events>li>button{justify-self:start;padding:4px 0;font-size:13px}
+.golden-tour .day-events h4{margin:4px 0 8px}
+.home-review-stories .section-heading{align-items:center;margin-bottom:10px}
+.home-review-stories h2{margin-bottom:0}
+.review-demo-label{font-size:12px;padding:7px 11px;border-radius:20px;background:#eef3fb;color:#446080;white-space:nowrap}
+.review-demo-note{font-size:13px;color:#62738a;margin:0 0 22px}
+.home-review-stories .carousel-track{grid-auto-columns:calc((100% - 36px)/3);gap:18px;margin:0;padding:4px 0 15px;scroll-padding:0}
+.home-story-card{min-width:0;background:linear-gradient(150deg,#f3f7fd,#fff 65%);border:1px solid #dfe7f1;border-radius:16px;padding:24px;display:flex;flex-direction:column;scroll-snap-align:start;transition:transform 180ms,box-shadow 180ms}
+.home-story-card:hover{transform:translateY(-3px);box-shadow:0 10px 25px #1837590b}
+.home-story-top{display:flex;justify-content:space-between;align-items:center;color:#b9cbe3}
+.home-story-stars{display:flex;gap:3px;color:#b67908}
+.home-story-card h3{font-size:18px;font-weight:600;line-height:1.4;margin:20px 0 10px;color:#182a42}
+.home-story-card>p{font-size:15px;line-height:1.75;color:#56677e;margin:0 0 22px}
+.home-story-route{display:flex;align-items:center;gap:6px;font-size:12px;color:#43689b;margin-top:auto;padding-bottom:18px}
+.home-story-card footer{display:flex;align-items:center;gap:11px;margin:0;padding:17px 0 0;background:none;color:#182a42;border-top:1px solid #e2e9f2}
+.home-story-avatar{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#e7effa;color:#496b9a;font-size:13px;font-weight:600;flex:none}
+.home-story-card footer strong{font-size:14px;font-weight:500;display:block}
+.home-story-card footer small{font-size:12px;color:#728096;display:block;margin-top:3px}
+.home-review-stories>.text-btn{display:inline-flex;margin-top:14px;font-size:14px}
+@media(min-width:768px){.discovery-hero{display:flex;align-items:flex-end}.discovery-hero .hero-copy{width:100%;max-width:1140px;margin:0 auto;padding-top:150px;padding-bottom:76px}.discovery-hero .hero-copy .primary{display:none}.discovery-hero .hero-copy>p:not(.hero-position){margin-bottom:12px}}
+@media(min-width:768px) and (max-width:1190px){.discovery-hero .hero-copy{padding-left:24px;padding-right:24px}}
+@media(min-width:768px) and (max-width:1024px){.home-review-stories .carousel-track{grid-auto-columns:calc((100% - 18px)/2)}}
+@media(max-width:767px){.home-review-stories .section-heading{align-items:flex-start;gap:12px;flex-direction:column}.home-review-stories .carousel-track{grid-auto-columns:calc((100% - 14px)/1.15);gap:14px}.home-story-card{padding:21px}.home-story-card h3{font-size:18px}.review-demo-note{margin-top:12px}.home-review-stories .carousel-arrow{display:none}}
+@media(prefers-reduced-motion:reduce){.home-story-card{transition:none}.home-story-card:hover{transform:none}}

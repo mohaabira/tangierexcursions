@@ -1,0 +1,85 @@
+{
+  "passed": 20,
+  "checks": [
+    {
+      "name": "Completed booking receives an opaque token and a real ten-hour delay",
+      "status": "passed"
+    },
+    {
+      "name": "Reputation administration rejects customers and anonymous callers",
+      "status": "passed"
+    },
+    {
+      "name": "French secure review page is server-rendered without private booking identity or contact data",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid tokens and other-customer booking access are rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Platform settings persist and reject unofficial redirect destinations",
+      "status": "passed"
+    },
+    {
+      "name": "Concurrent queue runs create one localized branded test request with secure CTA and QR",
+      "status": "passed"
+    },
+    {
+      "name": "Immediate reminders and manual spam resends are blocked",
+      "status": "passed"
+    },
+    {
+      "name": "One delayed reminder is allowed and the maximum is enforced",
+      "status": "passed"
+    },
+    {
+      "name": "Low-rating submission requires consent, prevents duplicate reviews and stops reminders without gating external options",
+      "status": "passed"
+    },
+    {
+      "name": "Pending content is private and unique funnel events never fabricate delivery or external publication",
+      "status": "passed"
+    },
+    {
+      "name": "Legitimate criticism can be published; public review payload excludes booking identifiers and private data",
+      "status": "passed"
+    },
+    {
+      "name": "Public replies and private issue resolution persist with moderation history",
+      "status": "passed"
+    },
+    {
+      "name": "Published tour reviews and official replies render in the initial server response",
+      "status": "passed"
+    },
+    {
+      "name": "Landing-page and existing review-archive social proof use relationships without duplicating review records",
+      "status": "passed"
+    },
+    {
+      "name": "Opt-out persists and blocks automatic/manual requests without blocking independent review choices",
+      "status": "passed"
+    },
+    {
+      "name": "Secure-link photo upload and preview enforce completed-booking ownership",
+      "status": "passed"
+    },
+    {
+      "name": "Photos need explicit consent and moderation before public display",
+      "status": "passed"
+    },
+    {
+      "name": "Approved photo deletion revokes media access and removes it from public review data",
+      "status": "passed"
+    },
+    {
+      "name": "Cancelled bookings revoke review link actions and QR generation",
+      "status": "passed"
+    },
+    {
+      "name": "Localized review email templates are editable and persist after fresh reads",
+      "status": "passed"
+    }
+  ]
+}

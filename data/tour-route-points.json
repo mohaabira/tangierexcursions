@@ -1,0 +1,2180 @@
+{
+  "/best-tangier-tours/2-day-trip-to-morocco-from-gibraltar/": [
+    {
+      "id": "route-1",
+      "title": "Gibraltar",
+      "location": "Gibraltar",
+      "description": [],
+      "lat": 36.14474,
+      "lng": -5.35257,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2411585",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-5",
+      "title": "La Línea de la Concepción",
+      "location": "La Línea de la Concepción",
+      "description": [],
+      "lat": 36.16809,
+      "lng": -5.34777,
+      "mapOrder": 5,
+      "coordinateSource": "GeoNames 2515812",
+      "sourceStopId": "source-stop-1-event-1"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/2-day-trip-to-morocco-from-malaga/": [
+    {
+      "id": "route-1",
+      "title": "Málaga",
+      "location": "Málaga",
+      "description": [],
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2514256",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-5",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/2-day-trip-to-morocco-from-marbella/": [
+    {
+      "id": "route-1",
+      "title": "Marbella",
+      "location": "Marbella",
+      "description": [],
+      "lat": 36.51543,
+      "lng": -4.88583,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2514169",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-5",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/2-day-trip-to-morocco-from-seville/": [
+    {
+      "id": "route-1",
+      "title": "Seville",
+      "location": "Seville",
+      "description": [],
+      "lat": 37.38283,
+      "lng": -5.97317,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2510911",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-5",
+      "title": "Málaga",
+      "location": "Málaga",
+      "description": [],
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "mapOrder": 5,
+      "coordinateSource": "GeoNames 2514256",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/2-day-trip-to-morocco-from-spain/": [
+    {
+      "id": "route-1",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/3-day-morocco-tour-from-gibraltar/": [
+    {
+      "id": "route-1",
+      "title": "La Línea de la Concepción",
+      "location": "La Línea de la Concepción",
+      "description": [],
+      "lat": 36.16809,
+      "lng": -5.34777,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2515812",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-5",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/3-day-morocco-tour-from-malaga/": [
+    {
+      "id": "route-1",
+      "title": "Málaga",
+      "location": "Málaga",
+      "description": [],
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2514256",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-5",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/3-day-morocco-tour-from-marbella/": [
+    {
+      "id": "route-1",
+      "title": "Marbella",
+      "location": "Marbella",
+      "description": [],
+      "lat": 36.51543,
+      "lng": -4.88583,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2514169",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-5",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/3-day-morocco-tour-from-seville/": [
+    {
+      "id": "route-1",
+      "title": "Seville",
+      "location": "Seville",
+      "description": [],
+      "lat": 37.38283,
+      "lng": -5.97317,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2510911",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-5",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/3-day-morocco-tour-from-tarifa/": [
+    {
+      "id": "route-1",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-7",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 7,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/5-day-morocco-tour-from-spain/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Asilah",
+      "location": "Asilah",
+      "description": [],
+      "lat": 35.46522,
+      "lng": -6.03415,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2557055",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Rabat",
+      "location": "Rabat",
+      "description": [],
+      "lat": 34.01325,
+      "lng": -6.83255,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2538475",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-4",
+      "title": "Meknès",
+      "location": "Meknès",
+      "description": [],
+      "lat": 33.89352,
+      "lng": -5.54727,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2542715",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-5",
+      "title": "Fes",
+      "location": "Fes",
+      "description": [],
+      "lat": 34.03313,
+      "lng": -5.00028,
+      "mapOrder": 5,
+      "coordinateSource": "GeoNames 2548885",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-6",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 6,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-7",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 7,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/travel-from-spain-to-morocco/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Asilah",
+      "location": "Asilah",
+      "description": [],
+      "lat": 35.46522,
+      "lng": -6.03415,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2557055",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-4",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/best-tangier-tours/trip-tangier-to-fes-chefchaouen-4-days-3-nights/": [
+    {
+      "id": "route-1",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Meknès",
+      "location": "Meknès",
+      "description": [],
+      "lat": 33.89352,
+      "lng": -5.54727,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2542715",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-4",
+      "title": "Fes",
+      "location": "Fes",
+      "description": [],
+      "lat": 34.03313,
+      "lng": -5.00028,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2548885",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-5",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 5,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-6",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-7",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 7,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-8",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 8,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/desert-trips/morocco-desert-trip-from-spain/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335"
+    },
+    {
+      "id": "route-2",
+      "title": "Gibraltar",
+      "location": "Gibraltar",
+      "description": [],
+      "lat": 36.14474,
+      "lng": -5.35257,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2411585"
+    },
+    {
+      "id": "route-3",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2510599"
+    },
+    {
+      "id": "route-4",
+      "title": "Asilah",
+      "location": "Asilah",
+      "description": [],
+      "lat": 35.46522,
+      "lng": -6.03415,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2557055"
+    },
+    {
+      "id": "route-5",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 5,
+      "coordinateSource": "GeoNames 2553455"
+    },
+    {
+      "id": "route-6",
+      "title": "Meknès",
+      "location": "Meknès",
+      "description": [],
+      "lat": 33.89352,
+      "lng": -5.54727,
+      "mapOrder": 6,
+      "coordinateSource": "GeoNames 2542715"
+    },
+    {
+      "id": "route-7",
+      "title": "Fes",
+      "location": "Fes",
+      "description": [],
+      "lat": 34.03313,
+      "lng": -5.00028,
+      "mapOrder": 7,
+      "coordinateSource": "GeoNames 2548885"
+    },
+    {
+      "id": "route-8",
+      "title": "Marrakesh",
+      "location": "Marrakesh",
+      "description": [],
+      "lat": 31.63416,
+      "lng": -7.99994,
+      "mapOrder": 8,
+      "coordinateSource": "GeoNames 2542997"
+    }
+  ],
+  "/morocco-vacation-packages/best-private-morocco-tour-10-days-9-nights/": [
+    {
+      "id": "route-1",
+      "title": "Casablanca",
+      "location": "Casablanca",
+      "description": [],
+      "lat": 33.58831,
+      "lng": -7.61138,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2553604",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Rabat",
+      "location": "Rabat",
+      "description": [],
+      "lat": 34.01325,
+      "lng": -6.83255,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2538475",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-4",
+      "title": "Fes",
+      "location": "Fes",
+      "description": [],
+      "lat": 34.03313,
+      "lng": -5.00028,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2548885",
+      "sourceStopId": "source-stop-4"
+    },
+    {
+      "id": "route-5",
+      "title": "Ifrane",
+      "location": "Ifrane",
+      "description": [],
+      "lat": 33.52666,
+      "lng": -5.11019,
+      "mapOrder": 5,
+      "coordinateSource": "GeoNames 2546917",
+      "sourceStopId": "source-stop-5"
+    },
+    {
+      "id": "route-6",
+      "title": "Azrou",
+      "location": "Azrou",
+      "description": [],
+      "lat": 33.43443,
+      "lng": -5.22126,
+      "mapOrder": 6,
+      "coordinateSource": "GeoNames 2556464",
+      "sourceStopId": "source-stop-5"
+    },
+    {
+      "id": "route-7",
+      "title": "Midelt",
+      "location": "Midelt",
+      "description": [],
+      "lat": 32.6852,
+      "lng": -4.74512,
+      "mapOrder": 7,
+      "coordinateSource": "GeoNames 2542227",
+      "sourceStopId": "source-stop-5"
+    },
+    {
+      "id": "route-8",
+      "title": "Marrakesh",
+      "location": "Marrakesh",
+      "description": [],
+      "lat": 31.63416,
+      "lng": -7.99994,
+      "mapOrder": 8,
+      "coordinateSource": "GeoNames 2542997",
+      "sourceStopId": "source-stop-8"
+    }
+  ],
+  "/morocco-vacation-packages/marrakech-desert-tour/": [
+    {
+      "id": "route-1",
+      "title": "Marrakesh",
+      "location": "Marrakesh",
+      "description": [],
+      "lat": 31.63416,
+      "lng": -7.99994,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2542997",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Ouarzazate",
+      "location": "Ouarzazate",
+      "description": [],
+      "lat": 30.91894,
+      "lng": -6.89341,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2540850",
+      "sourceStopId": "source-stop-6"
+    }
+  ],
+  "/morocco-vacation-packages/marrakech-desert-trip-7-days-6-nights/": [
+    {
+      "id": "route-1",
+      "title": "Marrakesh",
+      "location": "Marrakesh",
+      "description": [],
+      "lat": 31.63416,
+      "lng": -7.99994,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2542997",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Zagora",
+      "location": "Zagora",
+      "description": [],
+      "lat": 30.33241,
+      "lng": -5.8384,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2526452",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Rissani",
+      "location": "Rissani",
+      "description": [],
+      "lat": 31.28318,
+      "lng": -4.26565,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2538027",
+      "sourceStopId": "source-stop-3"
+    }
+  ],
+  "/morocco-vacation-packages/morocco-trip-15-days-14-nights/": [
+    {
+      "id": "route-1",
+      "title": "Casablanca",
+      "location": "Casablanca",
+      "description": [],
+      "lat": 33.58831,
+      "lng": -7.61138,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2553604",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-2",
+      "title": "Rabat",
+      "location": "Rabat",
+      "description": [],
+      "lat": 34.01325,
+      "lng": -6.83255,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2538475",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Asilah",
+      "location": "Asilah",
+      "description": [],
+      "lat": 35.46522,
+      "lng": -6.03415,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2557055",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-4",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-5",
+      "title": "Tétouan",
+      "location": "Tétouan",
+      "description": [],
+      "lat": 35.57845,
+      "lng": -5.36837,
+      "mapOrder": 5,
+      "coordinateSource": "GeoNames 2528910",
+      "sourceStopId": "source-stop-4"
+    },
+    {
+      "id": "route-6",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 6,
+      "coordinateSource": "GeoNames 2553455",
+      "sourceStopId": "source-stop-4"
+    },
+    {
+      "id": "route-7",
+      "title": "Meknès",
+      "location": "Meknès",
+      "description": [],
+      "lat": 33.89352,
+      "lng": -5.54727,
+      "mapOrder": 7,
+      "coordinateSource": "GeoNames 2542715",
+      "sourceStopId": "source-stop-6"
+    },
+    {
+      "id": "route-8",
+      "title": "Fes",
+      "location": "Fes",
+      "description": [],
+      "lat": 34.03313,
+      "lng": -5.00028,
+      "mapOrder": 8,
+      "coordinateSource": "GeoNames 2548885",
+      "sourceStopId": "source-stop-6"
+    },
+    {
+      "id": "route-9",
+      "title": "Midelt",
+      "location": "Midelt",
+      "description": [],
+      "lat": 32.6852,
+      "lng": -4.74512,
+      "mapOrder": 9,
+      "coordinateSource": "GeoNames 2542227",
+      "sourceStopId": "source-stop-8"
+    },
+    {
+      "id": "route-10",
+      "title": "Ouarzazate",
+      "location": "Ouarzazate",
+      "description": [],
+      "lat": 30.91894,
+      "lng": -6.89341,
+      "mapOrder": 10,
+      "coordinateSource": "GeoNames 2540850",
+      "sourceStopId": "source-stop-11"
+    },
+    {
+      "id": "route-11",
+      "title": "Marrakesh",
+      "location": "Marrakesh",
+      "description": [],
+      "lat": 31.63416,
+      "lng": -7.99994,
+      "mapOrder": 11,
+      "coordinateSource": "GeoNames 2542997",
+      "sourceStopId": "source-stop-12"
+    },
+    {
+      "id": "route-12",
+      "title": "Essaouira",
+      "location": "Essaouira",
+      "description": [],
+      "lat": 31.5125,
+      "lng": -9.77,
+      "mapOrder": 12,
+      "coordinateSource": "GeoNames 2549263",
+      "sourceStopId": "source-stop-14"
+    },
+    {
+      "id": "route-13",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 13,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-14",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 14,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/benalmadena-to-morocco-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Benalmádena",
+      "location": "Benalmádena",
+      "description": [],
+      "lat": 36.5961,
+      "lng": -4.57267,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2521139",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-4",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/cadiz-to-morocco-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Cádiz",
+      "location": "Cádiz",
+      "description": [],
+      "lat": 36.52672,
+      "lng": -6.2891,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2520600",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-4",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-7",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 7,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/day-trip-from-marbella-to-morocco/": [
+    {
+      "id": "route-1",
+      "title": "Marbella",
+      "location": "Marbella",
+      "description": [],
+      "lat": 36.51543,
+      "lng": -4.88583,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2514169",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 3,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-4",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/day-trip-to-morocco-from-spain/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Gibraltar",
+      "location": "Gibraltar",
+      "description": [],
+      "lat": 36.14474,
+      "lng": -5.35257,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2411585"
+    },
+    {
+      "id": "route-3",
+      "title": "Málaga",
+      "location": "Málaga",
+      "description": [],
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2514256"
+    },
+    {
+      "id": "route-4",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 4,
+      "coordinateSource": "GeoNames 2510599"
+    },
+    {
+      "id": "route-5",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/day-trip-to-tangier-and-asilah/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Asilah",
+      "location": "Asilah",
+      "description": [],
+      "lat": 35.46522,
+      "lng": -6.03415,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2557055",
+      "sourceStopId": "source-stop-4"
+    },
+    {
+      "id": "route-3",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 3,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-4",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/day-trip-to-tangier-and-tetouan-from-gibraltar/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tétouan",
+      "location": "Tétouan",
+      "description": [],
+      "lat": 35.57845,
+      "lng": -5.36837,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2528910",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-3",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 3,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-4",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/estepona-to-tangier-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Estepona",
+      "location": "Estepona",
+      "description": [],
+      "lat": 36.42764,
+      "lng": -5.14589,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2517816",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-3",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 3,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-4",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/fuengirola-to-morocco-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Fuengirola",
+      "location": "Fuengirola",
+      "description": [],
+      "lat": 36.53998,
+      "lng": -4.62473,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2517595",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-4",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-7",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 7,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/malaga-day-trip-to-morocco/": [
+    {
+      "id": "route-1",
+      "title": "Málaga",
+      "location": "Málaga",
+      "description": [],
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2514256",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 3,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-4",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/rota-to-morocco-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Rota",
+      "location": "Rota",
+      "description": [],
+      "lat": 36.62364,
+      "lng": -6.35997,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2511700",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-4",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-7",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 7,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/sotogrande-to-morocco-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-2",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-3",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 3,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-4",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/tangier-day-trip-from-seville/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335"
+    },
+    {
+      "id": "route-2",
+      "title": "Seville",
+      "location": "Seville",
+      "description": [],
+      "lat": 37.38283,
+      "lng": -5.97317,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510911"
+    }
+  ],
+  "/tangier-day-trips/tangier-food-tour/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    }
+  ],
+  "/tangier-day-trips/tangier-guided-walking-tour/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335"
+    },
+    {
+      "id": "route-2",
+      "title": "Tangier Medina",
+      "location": "Tangier Medina",
+      "description": [],
+      "lat": 35.7854,
+      "lng": -5.8106,
+      "mapOrder": 2,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/tangier-shore-excursion/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 2,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/tangier-to-chefchaouen-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335"
+    },
+    {
+      "id": "route-2",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2553455"
+    }
+  ],
+  "/tangier-day-trips/tarifa-to-chefchaouen-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2553455"
+    },
+    {
+      "id": "route-3",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 3,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-day-trips/torremolinos-to-morocco-day-trip/": [
+    {
+      "id": "route-1",
+      "title": "Torremolinos",
+      "location": "Torremolinos",
+      "description": [],
+      "lat": 36.62035,
+      "lng": -4.49976,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2510281",
+      "sourceStopId": "source-stop-1"
+    },
+    {
+      "id": "route-2",
+      "title": "Tarifa",
+      "location": "Tarifa",
+      "description": [],
+      "lat": 36.01393,
+      "lng": -5.60695,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2510599",
+      "sourceStopId": "source-stop-2"
+    },
+    {
+      "id": "route-3",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2530335",
+      "sourceStopId": "source-stop-3"
+    },
+    {
+      "id": "route-4",
+      "title": "Tarifa Port",
+      "location": "Tarifa Port",
+      "description": [],
+      "lat": 36.0105,
+      "lng": -5.6052,
+      "mapOrder": 4,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-5",
+      "title": "Tangier Ville port",
+      "location": "Tangier Ville port",
+      "description": [],
+      "lat": 35.7855,
+      "lng": -5.8039,
+      "mapOrder": 5,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-6",
+      "title": "Cape Spartel",
+      "location": "Cape Spartel",
+      "description": [],
+      "lat": 35.7906,
+      "lng": -5.9237,
+      "mapOrder": 6,
+      "coordinateSource": "Existing Golden Tour landmark"
+    },
+    {
+      "id": "route-7",
+      "title": "Hercules Caves",
+      "location": "Hercules Caves",
+      "description": [],
+      "lat": 35.7601,
+      "lng": -5.9393,
+      "mapOrder": 7,
+      "coordinateSource": "Existing Golden Tour landmark"
+    }
+  ],
+  "/tangier-taxi/tangier-to-chefchaouen-taxi/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335"
+    },
+    {
+      "id": "route-2",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2553455"
+    }
+  ],
+  "/tangier-taxi/tangier-to-fes-via-chefchaouen/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335"
+    },
+    {
+      "id": "route-2",
+      "title": "Fes",
+      "location": "Fes",
+      "description": [],
+      "lat": 34.03313,
+      "lng": -5.00028,
+      "mapOrder": 2,
+      "coordinateSource": "GeoNames 2548885"
+    },
+    {
+      "id": "route-3",
+      "title": "Chefchaouen",
+      "location": "Chefchaouen",
+      "description": [],
+      "lat": 35.16878,
+      "lng": -5.2636,
+      "mapOrder": 3,
+      "coordinateSource": "GeoNames 2553455"
+    }
+  ],
+  "/taxi-transfers/tangier-airport-taxi/": [
+    {
+      "id": "route-1",
+      "title": "Tangier",
+      "location": "Tangier",
+      "description": [],
+      "lat": 35.76727,
+      "lng": -5.79975,
+      "mapOrder": 1,
+      "coordinateSource": "GeoNames 2530335"
+    }
+  ]
+}
